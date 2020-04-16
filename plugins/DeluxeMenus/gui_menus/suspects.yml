@@ -1,0 +1,199 @@
+menu_title: '&8Suspect | Shop'
+open_command:
+- suspects
+size: 27
+items:
+  'Decoration-1':
+    material: 160
+    data: 15
+    slots:
+    - 18
+    - 26
+  'Decoration-2':
+    material: 160
+    data: 7
+    slots:
+    - 19
+    - 20
+    - 21
+    - 23
+    - 24
+    - 25    
+  'Close':
+    material: barrier
+    slot: 22
+    display_name: '&aClose'
+    lore: ''
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'GrapplingHook':
+    material: 346
+    slot: 0
+    display_name: '&aGrappling Hook'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b100.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] tm amsg %player_name% &a&lSUPECT SHOP &8&l» &7You have bought &eGrappling Hook&7.'
+    - '[console] eco take %player_name% 100000'
+    - '[console] gh give %player_name%'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 100000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e100.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] tm amsg %player_name% &a&lSUPECT SHOP &8&l» &7You have bought &eGrappling Hook&7.'
+    - '[console] eco take %player_name% 100000'
+    - '[console] gh give %player_name%'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 100000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e100.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'SmallBackPack':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhmODhiMTYxNzYzZjYyZTRjNTFmNWViMWQzOGZhZjNiODJjNDhhODM5YWMzMTcxMjI5NTU3YWRlNDI3NDM0In19fQ==
+    slot: 1
+    display_name: '&aSmall Backpack'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b50.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] tm amsg %player_name% &a&lSUPECT SHOP &8&l» &7You have bought &eSmall Backpack&7.'
+    - '[console] eco take %player_name% 50000'
+    - '[console] simplebackpack give %player_name% Small'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 50000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e50.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] tm amsg %player_name% &a&lSUPECT SHOP &8&l» &7You have bought &eSmall Backpack&7.'
+    - '[console] eco take %player_name% 50000'
+    - '[console] simplebackpack give %player_name% Small'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 50000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e50.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'MediumBackPack':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNjNzk5NTRkMzUwYTk4YzcyMTcyNTY4MzFmNjVjNjJhNDI4MDc0YjZlNGFlOWVlZGU3YTQ0ZjlkZTRhNyJ9fX0=
+    slot: 2
+    display_name: '&aMedium Backpack'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b100.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] tm amsg %player_name% &a&lSUPECT SHOP &8&l» &7You have bought &eMedium Backpack&7.'
+    - '[console] eco take %player_name% 100000'
+    - '[console] simplebackpack give %player_name% Medium'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 100000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e100.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] tm amsg %player_name% &a&lSUPECT SHOP &8&l» &7You have bought &eMedium Backpack&7.'
+    - '[console] eco take %player_name% 100000'
+    - '[console] simplebackpack give %player_name% Medium'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 100000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e100.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'LargeBackPack':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhjMWUxYzYyZGM2OTVlYjkwZmExOTJkYTZhY2E0OWFiNGY5ZGZmYjZhZGI1ZDI2MjllYmZjOWIyNzg4ZmEyIn19fQ==
+    slot: 3
+    display_name: '&aLarge Backpack'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b200.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] tm amsg %player_name% &a&lSUPECT SHOP &8&l» &7You have bought &eLarge Backpack&7.'
+    - '[console] eco take %player_name% 200000'
+    - '[console] simplebackpack give %player_name% Large'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 200000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e200.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] tm amsg %player_name% &a&lSUPECT SHOP &8&l» &7You have bought &eLarge Backpack&7.'
+    - '[console] eco take %player_name% 200000'
+    - '[console] simplebackpack give %player_name% Large'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 200000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e200.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'

@@ -1,0 +1,128 @@
+#-----------------------------------------------------------------------------------------------------------------------#
+#                                                                                                                       #
+#         ███████╗███╗   ██╗██████╗ ██╗     ███████╗███████╗███████╗ ██████╗  █████╗ ███╗   ███╗███████╗███████╗        #
+#         ██╔════╝████╗  ██║██╔══██╗██║     ██╔════╝██╔════╝██╔════╝██╔════╝ ██╔══██╗████╗ ████║██╔════╝██╔════╝        #
+#         █████╗  ██╔██╗ ██║██║  ██║██║     █████╗  ███████╗███████╗██║  ███╗███████║██╔████╔██║█████╗  ███████╗        #
+#         ██╔══╝  ██║╚██╗██║██║  ██║██║     ██╔══╝  ╚════██║╚════██║██║   ██║██╔══██║██║╚██╔╝██║██╔══╝  ╚════██║        #
+#         ███████╗██║ ╚████║██████╔╝███████╗███████╗███████║███████║╚██████╔╝██║  ██║██║ ╚═╝ ██║███████╗███████║        #
+#         ╚══════╝╚═╝  ╚═══╝╚═════╝ ╚══════╝╚══════╝╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝        #
+#              _                    _ _               _ _        _ _               _                                    #
+#             | |                  | (_)             (_) |      | (_)             | |                                   #
+#             | |     ___  __ _  __| |_ _ __   __ _   _| |_ __ _| |_  __ _ _ __   | |_ ___  __ _ _ __ ___               #
+#             | |    / _ \/ _` |/ _` | | '_ \ / _` | | | __/ _` | | |/ _` | '_ \  | __/ _ \/ _` | '_ ` _ \              #
+#             | |___|  __/ (_| | (_| | | | | | (_| | | | || (_| | | | (_| | | | | | ||  __/ (_| | | | | | |             #
+#             \_____/\___|\__,_|\__,_|_|_| |_|\__, | |_|\__\__,_|_|_|\__,_|_| |_|  \__\___|\__,_|_| |_| |_|             #
+#                                              __/ |                                                                    #
+#                                             |___/                                                                     #
+#              __                                       _               _                                               #
+#             / _|                                     | |             | |                                              #
+#             | |_ ___  _ __   _   _  ___  _   _ _ __  | |__   ___  ___| |_   ___  ___ _ ____   _____ _ __              #
+#             |  _/ _ \| '__| | | | |/ _ \| | | | '__| | '_ \ / _ \/ __| __| / __|/ _ \ '__\ \ / / _ \ '__|             #
+#             | || (_) | |    | |_| | (_) | |_| | |    | |_) |  __/\__ \ |_  \__ \  __/ |   \ V /  __/ |                #
+#             |_| \___/|_|     \__, |\___/ \__,_|_|    |_.__/ \___||___/\__| |___/\___|_|    \_/ \___|_|                #
+#                               __/ |                                                                                   #
+#                              |___/                                                                                    #
+#                                                                                                                       #
+#                               Welcome to the main configuration file (ClimateChange v3.0.2)                           #
+#                                   This plugin is currently supporting 1.8.x - 1.15.x                                  #
+#                                                                                                                       #
+#                            Contact us at SpigotMC if you"re having any issues or suggestions                          #
+#                                              Spigot Name: EndlessGames                                                #
+#                                                                                                                       #
+#-----------------------------------------------------------------------------------------------------------------------#
+
+#Sounds list -> https://www.spigotmc.org/threads/sounds-1_7-1_15.340452/
+#Configure sound and duration when the hour changes. (TimeZone must be enabled)
+sound:
+  enabled: false
+  duration: 3
+  sound: ""
+
+#-----------------------------------------------------------------------------------------------------------------------#
+#                                                _                                                                      #
+#                                               | |                                                                     #
+#                                               | |     __ _ _ __   __ _                                                #
+#                                               | |    / _` | "_ \ / _` |                                               #
+#                                               | |___| (_| | | | | (_| |                                               #
+#                                               \_____/\__,_|_| |_|\__, |                                               #
+#                                                                   __/ |                                               #
+#                                                                  |___/                                                #
+#                                                                                                                       #
+#-----------------------------------------------------------------------------------------------------------------------#
+
+#Customize the prefix of all plugin messages.
+prefix: "&8&l[&9&lClimateChange&8&l]"
+
+#Help output message.
+help:
+  - "&8&l&m---------------------------------------------"
+  - "&9&l                    ClimateChange v%version"
+  - "&8&l&m---------------------------------------------"
+  - "&a/climate list &7- List of enabled worlds"
+  - " "
+  - "&a/climate weather <Clear/Rain/Storm/Thunder> [world]"
+  - "&a/climate time <Morning/Noon/Evening/Midnight/TimeZone> [world]"
+  - "&a/climate remove [world]"
+  - " "
+  - "&a/climate reload &7- Reload the configuration file"
+  - "&8&l&m---------------------------------------------"
+
+#When you send a player command though console pannel.
+only-player: "%prefix &aThis command can be executed only by players."
+
+#When you do not have enough permission to execute a command.
+no-permission: "%prefix &cYou don't have permissions to do this."
+
+#When you reaload ClimateChange plugin though the command.
+plugin-reloaded: "%prefix &7Plugin reloaded &asuccessfully&7!"
+
+#Error when you use '/climate weather' with wrong arguments.
+weather-set-usage: "%prefix &cUsage: /climate weather <Clear-Rain-Storm-Thunder> [world]"
+
+#Error when you use '/climate time' with wrong arguments.
+time-set-usage: "%prefix &cUsage: /climate time <Morning-Noon-Evening-MidNight-TimeZone> [world]"
+
+#Error when the selected world doesn't exist.
+world-no-exist: "%prefix &cSelected world doesn't exist."
+
+#When you configure successfully a weather condition in a certain world.
+weather-set: "%prefix &aSetted weather for world %world to %condition."
+
+#When you configure successfully a time condition in a certain world.
+time-set: "%prefix &aSetted time for world %world to %condition."
+
+#When you clear successfully weather & time condition in a certain world.
+conditions-removed: "%prefix &aCleared weather & time for world %world"
+
+#When ask for a list of enabled conditions in every world.
+enabled-worlds:
+  header:
+    - "&8&l&m---------------------------------------------"
+    - "&9&l                       ClimateChange"
+    - "&8&l&m---------------------------------------------"
+  body:
+    - "&aEnabled worlds:"
+  weather:
+    header: "\n&8Weather:"
+    clear: "&6Clear"
+    rain: "&6Rain"
+    storm: "&6Storm"
+    thunder: "&6Thunder"
+  time:
+    header: "\n&8Time:"
+    morning: "&6Morning"
+    noon: "&6Noon"
+    evening: "&6Evening"
+    midnight: "&6MidNight"
+    timezone: "&6TimeZone"
+  footer:
+    - "&8&l&m---------------------------------------------"
+
+#Error when ClimateChange is not enabled in any worlds.
+disabled-worlds: "%prefix &cIt seems that ClimateChange is disabled in all worlds."
+
+#Error when the selected weather condition is not valid.
+weather-not-recognized: "%prefix &cWeather type not recognized. &7Please use: Clear, Rain, Storm or Thunder"
+
+#Error when the selected time condition is not valid.
+time-not-recognized: "%prefix &cTime type not recognized. &7Please use: Morning, Noon, Evening, Midnight or Timezone"

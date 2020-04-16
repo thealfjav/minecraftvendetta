@@ -1,0 +1,30 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explaination; https://github.com/RockinChaos/ItemJoin/wiki
+items-Version: 6
+items-Delay: 1
+items-Overwrite: true
+items-Spamming: false
+items-RestrictCount: false
+items:
+  Utilities:
+    id: PLAYER_HEAD
+    slot: 7
+    name: '&aUtilities &8&l» &7Right Click'
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJhZDU2YWUwZTVlMzUyNmY4N2E0YTk0Y2E4Y2Q0ODRlMzlmYmUyYzhkOGFjMjQxOGY5MjM4ZTg5ODQxZTRjYiJ9fX0=
+    lore: ''
+    commands:
+      right-click:
+      - 'player: utilities' 
+    itemflags: inventory-modify, placement, hide-attributes, death-drops, self-drops
+    triggers: join, respawn, world-change
+  Menu:
+    id: PLAYER_HEAD
+    slot: 8
+    name: '&aSurvival Menu &8&l» &7Right Click'
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThkYWExZTNlZDk0ZmYzZTMzZTFkNGM2ZTQzZjAyNGM0N2Q3OGE1N2JhNGQzOGU3NWU3YzkyNjQxMDYifX19
+    lore: ''
+    commands:
+      right-click:
+      - 'player: menu' 
+    itemflags: inventory-modify, placement, hide-attributes, death-drops, self-drops
+    triggers: join, respawn, world-change

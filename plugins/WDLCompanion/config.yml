@@ -1,0 +1,139 @@
+# WorldDownloader Serverside Companion configuration file.
+# 
+# There are permissions that override each of these settings, by the name
+# of "wdl.override.XXX".  They are given to ops by default.  You can also
+# also use "wdl.override.*" to use all of these permissions at once.
+
+wdl:
+  # Mode used for WDL-specific logging.  Valid options are 'none' (disables
+  # WDL-specific log files), 'individual' (files dated as vanilla minecraft
+  # does, per server-start and day), and 'combined' (only 1 log file, which
+  # contains all of the data).  Regardless of this setting, the plugin logs
+  # to the global server log.  Plugin-specific logs are found in the server
+  # logs folder, subfolder 'WDL'.
+  logMode: individual
+  
+  # Time that an accepted permission request lasts for in seconds.  This is
+  # only counted after the request is accepted.  In a future update, you'll
+  # be able to also specify a custom duration with each request, but that's
+  # not currently possible.
+  # 
+  # Permission requests allow players to request permission to temporarilly
+  # use the mod.  They still require a server moderator or administrator to
+  # grant the player the permissions, but it simplifies the process because
+  # the player can specify exactly what permissions they want. 
+  # 
+  # 3600 seconds = 1 hour.
+  requestDuration: 3600
+  
+  # Whether the client can use features of WDL that are from newer versions
+  # than this plugin is aware of (essentially, this provides a default that
+  # is used with unrecognized features).
+  canDoNewThings: true
+  
+  # Whether players are allowed to download the world in general.  If false
+  # they aren't allowed (the mod is fully disabled).
+  canDownloadInGeneral: true
+  
+  # The distance from a player that WDL can save chunks.  Use this to limit
+  # the area a player can download.  If set to -1, the value for the server
+  # in the server config ("view-distance") is used.  HOWEVER, this does not
+  # apply when a player is allowed to cache chunks.  When the below setting
+  # is set to true, this value is ignored!  (In which case the server value
+  # ("view-distance") is used.)
+  saveRadius: -1
+  
+  # Whether a player can cache chunks as they move.  In essence, this means
+  # that if the value is true, the player can download the entire map while
+  # moving about, but if false, the player will only save the nearby chunks
+  # when they stop download.  This doesn't really stop a player from saving
+  # the entire map (they could still combine the parts if they wanted), but
+  # it will be far harder for a player to do so.  IMPORTANT: If this is set
+  # to true, the saveRadius setting is IGNORED!
+  canCacheChunks: true
+  
+  # Whether or not a player can save entities in the map.  This controls if
+  # a player can save the location, appearance, inventory contents, and any
+  # other information about an animal, monster, or other thing.
+  canSaveEntities: true
+  
+  # Whether a player can save all tile entities as they move about the map.
+  # Tile entities (officially, "Block Entities") store additional meta-data
+  # for blocks, such as sign text, chest items, and banner patterns.  There
+  # are two types that matter to WDL: Ones that have their data sent to the
+  # client automatically (such as signs and banners) and ones that need the
+  # player to manually open them (containers, such as chests).  For the 2nd
+  # group, the setting "wdl.canSaveContainers" must also be true for saving
+  # to be allowed. 
+  canSaveTileEntities: true
+  
+  # Whether a player can save containers that require opening to save their
+  # contents, such as chests.  For this setting to be meaningful, the value
+  # of "wdl.canSaveTileEntities" must be true.  
+  canSaveContainers: true
+  
+  # Whether entity tracking ranges should be sent to the player.  These are
+  # obtained from spigot's settings if spigot is installed.  WDL needs this
+  # data to correctly identify wheter an entity just went out of a player's
+  # range or if it was killed.  If the value is set to false, or the server
+  # doesn't use spigot, WDL uses Minecraft's default values.  (These ranges
+  # are set in spigot.yml.  Look for entity-tracking-range in the per-world
+  # settings.)  If the player cannot save entities, this data is ignored.
+  sendEntityRanges: true
+
+  # A message to show the player when they requesting permissions.  This is
+  # only used in versions of WDL after 1.8d.  This can be used to state any
+  # rules regarding requests.  If this message is blank (or unset), nothing
+  # will be displayed, although the player will still be able make requests
+  # normally.  If the player can already download, this should generally be
+  # left unset, as it will create clutter.
+  requestMessage: ""
+
+  # Chunk overrides can be used to give players download permission in only
+  # a specific set of chunks.  This can be used to give permission for some
+  # areas of the map only.
+  # 
+  # The names of the sections (for instance, 'example1' and 'example2') are
+  # used in logging and also displayed in-game.  Aditionally, overrides may
+  # have tags, which are more useful for groups that contain more than just
+  # one override.  These also show up in-game, but matter less.  For simple
+  # single-range override, this is mostly uneeded.
+  # 
+  # There are various types of ranges, and extension plugins can define new
+  # types.  The built-in types are BlockRange and ChunkRange.  Both of them
+  # are for rectangular regions, with block coordinates used on BlockRanges
+  # and chunk coordinates (visible in F3) used with ChunkRanges.  Note that
+  # block ranges are expanded to full-chunk areas (since WDL saves on a per
+  # chunk basis), so any area will be expanded to the chunk boundary.
+  # 
+  # Both BlockRange and ChunkRange also have an optional 'world' parameter,
+  # used to specify the name of the world.  If left unspecified, it applies
+  # to ALL worlds.  They also have a 'tag' parameter, which sets the tag as
+  # described earlier. 
+  chunkOverrides:
+  #Example below:
+  #  example1:
+  #    type: ChunkRange
+  #    tag: foo
+  #    x1: 5
+  #    z1: 7
+  #    x2: 200
+  #    z2: 126
+  #  example2:
+  #    type: BlockRange
+  #    world: world_nether
+  #    x1: 100
+  #    z1: 4
+  #    x2: 10
+  #    z2: 126
+
+  # Per-world configuration goes here.  If a value isn't specified in world
+  # world configuration, it uses the default values above.  World names are
+  # based off of the folder name.  Note that chunk overrides cannot be used
+  # in this section; depending on the the override, you can set which world
+  # is used with a 'world' key.
+  per-world: 
+  # Example is below.
+  #
+  #  someMinigameWorld: 
+  #    canDownloadInGeneral: false

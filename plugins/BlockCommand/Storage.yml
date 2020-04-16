@@ -1,0 +1,7 @@
+Addmode: {}
+Click:
+  PCmd:
+    Spawn:
+      '-106':
+        '127':
+          '63': blacksmith

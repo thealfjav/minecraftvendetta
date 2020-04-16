@@ -1,0 +1,88 @@
+# EssentialsX new Kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - itemID[:DataValue/Durability] Amount [Enchantment:Level].. [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  Start:
+    delay: 604800894538953478578434534545
+    items:
+    - STONE_SWORD 1 damage_all:3 durability:2 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - IRON_PICKAXE 1 dig_speed:2 durability:2 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - IRON_AXE 1 dig_speed:2 durability:2 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - CHAINMAIL_HELMET 1 protection_environmental:1 durability:1 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - CHAINMAIL_CHESTPLATE 1 protection_environmental:1 durability:1 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - CHAINMAIL_LEGGINGS 1 protection_environmental:1 durability:1 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - CHAINMAIL_BOOTS 1 protection_environmental:1 durability:1 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - PLAYER_HEAD 1
+    - CREEPER_HEAD 1
+    - COAL_ORE 1 name:■_§2Tier_1_§8|_§aProtection§7_■ lore:§7Size:_§e50x25x50
+    - COOKED_PORKCHOP 16 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - GOLDEN_APPLE 8 name:§r§f■_§2Kit_§8|_§aMember§7_■
+  Member:
+    delay: 604800
+    items:
+    - STONE_SWORD 1 damage_all:3 durability:2 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - IRON_PICKAXE 1 dig_speed:2 durability:2 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - IRON_AXE 1 dig_speed:2 durability:2 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - CHAINMAIL_HELMET 1 protection_environmental:1 durability:1 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - CHAINMAIL_CHESTPLATE 1 protection_environmental:1 durability:1 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - CHAINMAIL_LEGGINGS 1 protection_environmental:1 durability:1 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - CHAINMAIL_BOOTS 1 protection_environmental:1 durability:1 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - COOKED_PORKCHOP 16 name:§r§f■_§2Kit_§8|_§aMember§7_■
+    - GOLDEN_APPLE 8 name:§r§f■_§2Kit_§8|_§aMember§7_■
+  Vip:
+    delay: 604800
+    items:
+    - IRON_SWORD 1 damage_all:3 durability:2 name:§r§f■_§3Kit_§8|_§bVip§7_■
+    - DIAMOND_PICKAXE 1 dig_speed:3 durability:2 loot_bonus_blocks:1 name:§r§f■_§3Kit_§8|_§bVip§7_■
+    - DIAMOND_AXE 1 dig_speed:3 durability:2 name:§r§f■_§3Kit_§8|_§bVip§7_■
+    - IRON_HELMET 1 protection_environmental:3 durability:2 name:§r§f■_§3Kit_§8|_§bVip§7_■
+    - IRON_CHESTPLATE 1 protection_environmental:3 durability:2 name:§r§f■_§3Kit_§8|_§bVip§7_■
+    - IRON_lEGGINGS 1 protection_environmental:3 durability:2 name:§r§f■_§3Kit_§8|_§bVip§7_■
+    - IRON_BOOTS 1 protection_environmental:3 durability:2 name:§r§f■_§3Kit_§8|_§bVip§7_■
+    - COOKED_PORKCHOP 32 name:§r§f■_§3Kit_§8|_§bVip§7_■
+    - GOLDEN_APPLE 16 name:§r§f■_§3Kit_§8|_§bVip§7_■
+  Vip+:
+    delay: 604800
+    items:
+    - IRON_SWORD 1 damage_all:4 durability:3 name:§r§f■_§3Kit_§8|_§bVip§e+§7_■
+    - DIAMOND_PICKAXE 1 dig_speed:4 durability:3 loot_bonus_blocks:1 name:§r§f■_§3Kit_§8|_§bVip§e+§7_■
+    - DIAMOND_AXE 1 dig_speed:4 durability:3 name:§r§f■_§3Kit_§8|_§bVip§e+§7_■
+    - IRON_HELMET 1 protection_environmental:4 durability:3 name:§r§f■_§3Kit_§8|_§bVip§e+§7_■
+    - IRON_CHESTPLATE 1 protection_environmental:4 durability:3 name:§r§f■_§3Kit_§8|_§bVip§e+§7_■
+    - IRON_LEGGINGS 1 protection_environmental:4 durability:3 name:§r§f■_§3Kit_§8|_§bVip§e+§7_■
+    - IRON_BOOTS 1 protection_environmental:4 durability:3 name:§r§f■_§3Kit_§8|_§bVip§e+§7_■
+    - COOKED_PORKCHOP 64 name:§r§f■_§3Kit_§8|_§bVip§e+§7_■
+    - GOLDEN_APPLE 32 name:§r§f■_§3Kit_§8|_§bVip§e+§7_■
+  Mvp:
+    delay: 604800
+    items:
+    - DIAMOND_SWORD 1 damage_all:4 durability:3 name:§r§f■_§3Kit_§8|_§bMvp§7_■
+    - DIAMOND_PICKAXE 1 dig_speed:4 durability:3 loot_bonus_blocks:2 name:§r§f■_§3Kit_§8|_§bMvp§7_■
+    - DIAMOND_AXE 1 dig_speed:4 durability:3 name:§r§f■_§3Kit_§8|_§bMvp§7_■
+    - DIAMOND_HELMET 1 protection_environmental:2 durability:2 name:§r§f■_§3Kit_§8|_§bMvp§7_■
+    - DIAMOND_CHESTPLATE 1 protection_environmental:2 durability:2 name:§r§f■_§3Kit_§8|_§bMvp§7_■
+    - DIAMOND_LEGGINGS 1 protection_environmental:2 durability:2 name:§r§f■_§3Kit_§8|_§bMvp§7_■
+    - DIAMOND_BOOTS 1 protection_environmental:2 durability:2 name:§r§f■_§3Kit_§8|_§bMvp§7_■
+    - COOKED_PORKCHOP 64 name:§r§f■_§3Kit_§8|_§bMvp§7_■
+    - GOLDEN_APPLE 64 name:§r§f■_§3Kit_§8|_§bMvp§7_■
+    - ENCHANTED_GOLDEN_APPLE 2 name:§r§f■_§3Kit_§8|_§bMvp§7_■
+  Mvp+:
+    delay: 604800
+    items:
+    - DIAMOND_SWORD 1 damage_all:5 durability:3 name:§r§f■_§3Kit_§8|_§bMvp§e+§7_■
+    - DIAMOND_PICKAXE 1 dig_speed:5 durability:3 loot_bonus_blocks:3 name:§r§f■_§3Kit_§8|_§bMvp§e+§7_■
+    - DIAMOND_AXE 1 dig_speed:5 durability:3 name:§r§f■_§3Kit_§8|_§bMvp§e+§7_■
+    - DIAMOND_HELMET 1 protection_environmental:3 durability:2 name:§r§f■_§3Kit_§8|_§bMvp§e+§7_■
+    - DIAMOND_CHESTPLATE 1 protection_environmental:3 durability:2 name:§r§f■_§3Kit_§8|_§bMvp§e+§7_■
+    - DIAMOND_LEGGINGS 1 protection_environmental:3 durability:2 name:§r§f■_§3Kit_§8|_§bMvp§e+§7_■
+    - DIAMOND_BOOTS 1 protection_environmental:3 durability:2 name:§r§f■_§3Kit_§8|_§bMvp§e+§7_■
+    - COOKED_PORKCHOP 64 name:§r§f■_§3Kit_§8|_§bMvp§e+§7_■
+    - GOLDEN_APPLE 64 name:§r§f■_§3Kit_§8|_§bMvp§e+§7_■
+    - ENCHANTED_GOLDEN_APPLE 4 name:§r§f■_§3Kit_§8|_§bMvp§e+§7_■

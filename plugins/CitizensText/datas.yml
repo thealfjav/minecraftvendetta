@@ -1,0 +1,53 @@
+# Do not edit anything here! Everything should be modified in-game.
+data:
+- npc: 16
+  messages:
+    0: §7Hi, i'm the §aapprentice §7to the §blumberjack §7of the market
+    1: §7Remember that you can go to the §amarket §7and §6sell your wood §7whenever
+      you want
+  customName: Leo
+- npc: 15
+  console: true
+  repeat: false
+  messages:
+    0: §7Welcome to the mine, §a%player_name%§7!
+    1: §7My name is §aJoe§7, I've been working §bHere §7for years.
+    2: §7You can chop hither to get §6valuable minerals§7.
+    3: §7Here you have a small §awelcome gift§7! Make the most of it.
+  customName: Joe
+  commands:
+    3: give {PLAYER} diamond_pickaxe 1 0 {Enchantments:[{id:efficiency,lvl:3},{id:unbreaking,lvl:2},{id:fortune,lvl:1}],display:{Name:"\"§2*
+      §aJoe's Pickaxe §2*\""}}
+- npc: 14
+  console: true
+  repeat: false
+  messages:
+    0: §7Hello §a%player_name%§7, my name is John and I am a fisherman.
+    1: §7I will give you an old rod to start fishing!
+    2: §7If you want to §6buy fishing rods §7or §asell your fish §7 talk to me again!
+  customName: John
+  commands:
+    2: give {PLAYER} fishing_rod 1 0 {display:{Name:"\"§aOld Fishing Rod\""}}
+    1: pex user {PLAYER} add requeriment.fish
+- npc: 17
+  console: true
+  times:
+    ef99c6c6-f40a-4a61-ba28-295bb97a0e44: 9223372036854775807
+  messages:
+    0: §7Hi §a%player_name%§7, my name is Malcom Mix.
+    1: §7There are rumors that §cdangerous dungeons §7will appear soon.
+    2: §7You must prepare to §aface them. §7I'll give you a gift, take care of it!
+  customName: Malcom Mix
+  commands:
+    2: give {PLAYER} iron_sword 1 0 {Enchantments:[{id:sharpness,lvl:4},{id:unbreaking,lvl:3},{id:looting,lvl:2}],display:{Name:"\"§2*
+      §aTom's Sword §2*\""}}
+- npc: 18
+  console: true
+  repeat: false
+  messages:
+    0: §7Hi §a%player_name% §7remember you can use all the spawn §bfarming areas§7.
+    1: §7Oh I forgot to give it to you, take the §6farming starter kit§7.
+  customName: Felix
+  commands:
+    0: give {PLAYER} stone_hoe 1 0
+    1: give {PLAYER} bone_meal 16 0

@@ -1,0 +1,656 @@
+menu_title: '&8Spawners Shop'
+open_command:
+- spawnershop
+size: 27
+items:
+  'Decoration-1':
+    material: 160
+    data: 15
+    slots:
+    - 18
+    - 26
+  'Decoration-2':
+    material: 160
+    data: 7
+    slots:
+    - 19
+    - 20
+    - 21
+    - 23
+    - 24
+    - 25    
+  'Close':
+    material: barrier
+    slot: 22
+    display_name: '&aClose'
+    lore: ''
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'VillagerSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 0
+    display_name: '&aVillager Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b400.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 400000'
+    - '[console] ms give %player_name% Villager 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 400000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e400.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 400000'
+    - '[console] ms give %player_name% Villager 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 400000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e400.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'ZombieSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 1
+    display_name: '&aZombie Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b300.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Zombie 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Zombie 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'CreeperSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 2
+    display_name: '&aCreeper Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b300.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Creeper 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Creeper 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'SkeletonSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 3
+    display_name: '&aSkeleton Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b300.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Skeleton 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Skeleton 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'SpiderSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 4
+    display_name: '&aSpider Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b300.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Spider 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Spider 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'SlimeSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 5
+    display_name: '&aSlime Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b300.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Slime 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Slime 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'GhastSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 6
+    display_name: '&aGhast Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b300.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Ghast 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Ghast 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'ZombiePigmanSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 7
+    display_name: '&aZombiePigman Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b300.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% ZombiePigman 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% ZombiePigman 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'EndermanSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 8
+    display_name: '&aEnderman Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b300.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Enderman 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Enderman 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'BlazeSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 9
+    display_name: '&aBlaze Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b300.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Blaze 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Blaze 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'MagmaCubeSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 10
+    display_name: '&aMagmaCube Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b300.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% MagmaCube 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% MagmaCube 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'WitchSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 11
+    display_name: '&aWitch Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b300.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Witch 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 300000'
+    - '[console] ms give %player_name% Witch 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 300000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e300.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'PigSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 12
+    display_name: '&aPig Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b150.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 150000'
+    - '[console] ms give %player_name% Pig 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 150000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e150.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 150000'
+    - '[console] ms give %player_name% Pig 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 150000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e150.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'SheepSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 13
+    display_name: '&aSheep Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b150.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 150000'
+    - '[console] ms give %player_name% Sheep 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 150000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e150.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 150000'
+    - '[console] ms give %player_name% Sheep 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 150000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e150.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'CowSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 14
+    display_name: '&aCow Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b150.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 150000'
+    - '[console] ms give %player_name% Cow 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 150000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e150.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 150000'
+    - '[console] ms give %player_name% Cow 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 150000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e150.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'ChickenSpawner':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+    slot: 15
+    display_name: '&aChicken Spawner'
+    lore:
+    - ''
+    - '&f&lPrice:'
+    - '&7Buy: &b150.000 ⛁'
+    - '&7Sell: &cNaN'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 150000'
+    - '[console] ms give %player_name% Chicken 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 150000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e150.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 150000'
+    - '[console] ms give %player_name% Chicken 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 150000 
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e150.000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'      

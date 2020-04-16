@@ -1,0 +1,29 @@
+points:
+  restriction: false
+  restriction-per: 10
+xp:
+  price: 15
+  add-total-to-price: true
+  add-total-to-price-multiplier: 5
+skills:
+  permissions-use: true
+  strength:
+    increment: 8
+    max-level: 10
+  criticals:
+    increment: 5
+    max-level: 10
+  resistance:
+    increment: 8
+    max-level: 10
+  archery:
+    increment: 5
+    max-level: 10
+  health:
+    increment: 2
+    max-level: 10
+admin-notification: true
+worlds:
+  restricted: false
+  allowed-worlds:
+  - any

@@ -1,0 +1,148 @@
+menu_title: '&8Withdraw Coins'
+open_command:
+- Withdrawcoins
+size: 36
+items:
+  'Decoration':
+    material: 160
+    data: 7
+    slots:
+    - 2
+    - 4
+    - 6
+    - 10
+    - 16
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 29
+    - 33
+  'Decoration-1':
+    material: 160
+    data: 15
+    slots:
+    - 0
+    - 1
+    - 3
+    - 5
+    - 7
+    - 8
+    - 9
+    - 17
+    - 27
+    - 28
+    - 30
+    - 32
+    - 34
+    - 35
+  'Back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    slot: 31
+    display_name: '&aBack'
+    lore: ''
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[openguimenu] bank'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[openguimenu] bank'
+  'Next':
+    material: 351
+    data: 8
+    slot: 33
+    display_name: '&7'
+    lore: ''
+  'Withdraw':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ1ZjQ3ZmViNGQ3NWNiMzMzOTE0YmZkYjk5OWE0ODljOWQwZTMyMGQ1NDhmMzEwNDE5YWQ3MzhkMWUyNGI5In19fQ==
+    slot: 11
+    display_name: '&aWithdraw 1000 ⛁'
+    lore:
+    - ''
+    - '&7Withdraw &b1000 ⛁'
+    - '&7of the bank.'
+    - ''
+    - '&eClick to Withdraw'
+    left_click_commands:
+    - '[player] bank withdraw 1000'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    right_click_commands:
+    - '[player] bank withdraw 1000'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+  'Withdraw2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ1ZjQ3ZmViNGQ3NWNiMzMzOTE0YmZkYjk5OWE0ODljOWQwZTMyMGQ1NDhmMzEwNDE5YWQ3MzhkMWUyNGI5In19fQ==
+    slot: 12
+    display_name: '&aWithdraw 10000 ⛁'
+    lore:
+    - ''
+    - '&7Withdraw &b10000 ⛁'
+    - '&7of the bank.'
+    - ''
+    - '&eClick to Withdraw'
+    left_click_commands:
+    - '[player] bank withdraw 10000'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    right_click_commands:
+    - '[player] bank withdraw 10000'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+  'Withdraw3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ1ZjQ3ZmViNGQ3NWNiMzMzOTE0YmZkYjk5OWE0ODljOWQwZTMyMGQ1NDhmMzEwNDE5YWQ3MzhkMWUyNGI5In19fQ==
+    slot: 13
+    display_name: '&aWithdraw 100000 ⛁'
+    lore:
+    - ''
+    - '&7Withdraw &b100000 ⛁'
+    - '&7of the bank.'
+    - ''
+    - '&eClick to Withdraw'
+    left_click_commands:
+    - '[player] bank withdraw 100000'
+    - '[close]'
+    right_click_commands:
+    - '[player] bank withdraw 100000'
+  'Withdraw4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ1ZjQ3ZmViNGQ3NWNiMzMzOTE0YmZkYjk5OWE0ODljOWQwZTMyMGQ1NDhmMzEwNDE5YWQ3MzhkMWUyNGI5In19fQ==
+    slot: 14
+    display_name: '&aWithdraw 1000000 ⛁'
+    lore:
+    - ''
+    - '&7Withdraw &b1000000 ⛁'
+    - '&7of the bank.'
+    - ''
+    - '&eClick to Withdraw'
+    left_click_commands:
+    - '[player] bank withdraw 1000000'
+    - '[close]'
+    right_click_commands:
+    - '[player] bank withdraw 1000000'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+  'Withdraw5':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ1ZjQ3ZmViNGQ3NWNiMzMzOTE0YmZkYjk5OWE0ODljOWQwZTMyMGQ1NDhmMzEwNDE5YWQ3MzhkMWUyNGI5In19fQ==
+    slot: 15
+    display_name: '&aWithdraw All'
+    lore:
+    - ''
+    - '&7Withdraw &b%banksystem_balance% ⛁'
+    - '&7of the bank.'
+    - ''
+    - '&eClick to Withdraw'
+    left_click_commands:
+    - '[player] bank withdraw all'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    right_click_commands:
+    - '[player] bank withdraw all'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 

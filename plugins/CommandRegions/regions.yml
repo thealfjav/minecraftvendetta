@@ -1,0 +1,27 @@
+# 
+# Start of example Region (You can add any amount of regions)
+# To add, either edit this .yml file or use the provided in-game commands.
+# Note that if in-game commands are used and the first region is created, most of these notes will be erased.
+# 
+# 
+# You're able to add multiple commands for on enter & on leave, just seperate them using "; ". - example below.
+regions:
+  go-to-survival:
+    worldName: Spawn
+    commands:
+      playerEnterCommand: NONE
+      consoleEnterCommand: rt %player% Survival
+      playerLeaveCommand: NONE
+      consoleLeaveCommand: NONE
+    messages:
+      onEnter: NONE
+      onLeave: NONE
+    locations:
+      '1':
+        x: -32
+        y: 91
+        z: 78
+      '2':
+        x: -34
+        y: 91
+        z: 80

@@ -1,0 +1,681 @@
+Crate:
+  CrateType: CSGO
+  CrateName: '&8Legendary Crate'
+  Preview-Name: '&8Legendary Crate' 
+  StartingKeys: 0 
+  InGUI: false
+  Slot: 21 
+  OpeningBroadCast: false 
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &7&lBasic Chest&7.' 
+  Item: 'CHEST' 
+  Glowing: false
+  Name: '&7&lBasic Chest'
+  Lore: 
+    - '&7This crate contains strange objects.' 
+    - '&7You have &6%Keys% keys &7to open this crate with.'
+    - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  PhysicalKey:
+    Name: '&eLegendary Key'
+    Lore: ''
+    Item: 'TRIPWIRE_HOOK'
+    Glowing: True
+  Prizes:
+    1:
+      DisplayName: '&a2500$'
+      DisplayItem: 'SUNFLOWER' 
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e20%'
+      MaxRange: 100 
+      Chance: 20
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'eco give %Player% 2500'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+    2:
+      DisplayName: '&a5000$'
+      DisplayItem: 'SUNFLOWER' 
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e10%'
+      MaxRange: 100 
+      Chance: 10
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'eco give %Player% 5000'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {} 
+    3:
+      DisplayName: '&a10000$'
+      DisplayItem: 'SUNFLOWER' 
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e5%'
+      MaxRange: 100 
+      Chance: 5
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'eco give %Player% 10000'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {} 
+    4:
+      DisplayName: '&a20000$'
+      DisplayItem: 'SUNFLOWER' 
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e1%'
+      MaxRange: 100 
+      Chance: 1
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'eco give %Player% 20000'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {} 
+    5:
+      DisplayName: '&a30000$'
+      DisplayItem: 'SUNFLOWER' 
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e0.5%'
+      MaxRange: 100 
+      Chance: 0.5
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'eco give %Player% 30000'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {} 
+    6:
+      DisplayName: '&ax8 Diamond Blocks'
+      DisplayItem: 'DIAMOND_BLOCK' 
+      DisplayAmount: 8
+      Lore:
+        - '&7Chance: &e5%'
+      MaxRange: 100 
+      Chance: 5
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% DIAMOND_BLOCK 8'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {} 
+    7:
+      DisplayName: '&ax16 Diamond Blocks'
+      DisplayItem: 'DIAMOND_BLOCK' 
+      DisplayAmount: 16
+      Lore:
+        - '&7Chance: &e1%'
+      MaxRange: 100 
+      Chance: 1
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% DIAMOND_BLOCK 16'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {} 
+    8:
+      DisplayName: '&ax8 Emerald Blocks'
+      DisplayItem: 'EMERALD_BLOCK' 
+      DisplayAmount: 8
+      Lore:
+        - '&7Chance: &e5%'
+      MaxRange: 100 
+      Chance: 5
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% EMERALD_BLOCK 8'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {} 
+    9:
+      DisplayName: '&ax16 Emerald Blocks'
+      DisplayItem: 'EMERALD_BLOCK' 
+      DisplayAmount: 16
+      Lore:
+        - '&7Chance: &e1%'
+      MaxRange: 100 
+      Chance: 1
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% EMERALD_BLOCK 16'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {} 
+    10:
+      DisplayName: '&ax8 Iron Blocks'
+      DisplayItem: 'IRON_BLOCK' 
+      DisplayAmount: 8
+      Lore:
+        - '&7Chance: &e10%'
+      MaxRange: 100 
+      Chance: 10
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% IRON_BLOCK 8'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {} 
+    11:
+      DisplayName: '&ax16 Iron Blocks'
+      DisplayItem: 'IRON_BLOCK' 
+      DisplayAmount: 16
+      Lore:
+        - '&7Chance: &e5%'
+      MaxRange: 100 
+      Chance: 5
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% IRON_BLOCK 16'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {} 
+    12:
+      DisplayName: '&ax8 Gold Blocks'
+      DisplayItem: 'GOLD_BLOCK' 
+      DisplayAmount: 8
+      Lore:
+        - '&7Chance: &e10%'
+      MaxRange: 100 
+      Chance: 10
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% GOLD_BLOCK 8'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {} 
+    13:
+      DisplayName: '&ax16 Gold Blocks'
+      DisplayItem: 'GOLD_BLOCK' 
+      DisplayAmount: 16
+      Lore:
+        - '&7Chance: &e5%'
+      MaxRange: 100 
+      Chance: 5
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% GOLD_BLOCK 16'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}  
+    14:
+      DisplayName: '&ax1 Pig Spawner'
+      DisplayItem: 'SPAWNER' 
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e0.5%'
+      MaxRange: 100 
+      Chance: 0.5
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'silkspawner give %Player% Pig 1'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}  
+    15:
+      DisplayName: '&ax1 Chicken Spawner'
+      DisplayItem: 'SPAWNER' 
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e0.5%'
+      MaxRange: 100 
+      Chance: 0.5
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'silkspawner give %Player% Chicken 1'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}   
+    16:
+      DisplayName: '&ax1 Zombie Spawner'
+      DisplayItem: 'SPAWNER' 
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e0.5%'
+      MaxRange: 100 
+      Chance: 0.5
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'silkspawner give %Player% Zombie 1'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}  
+    17:
+      DisplayName: '&ax1 Skeleton Spawner'
+      DisplayItem: 'SPAWNER' 
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e0.5%'
+      MaxRange: 100 
+      Chance: 0.5
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'silkspawner give %Player% Skeleton 1'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}   
+    18:
+      DisplayName: '&ax1 Villager Spawner'
+      DisplayItem: 'SPAWNER' 
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e0.5%'
+      MaxRange: 100 
+      Chance: 0.5
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'silkspawner give %Player% Villager 1'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}        
+    19:
+      DisplayName: '&ax32 Golden Apples'
+      DisplayItem: 'GOLDEN_APPLE' 
+      DisplayAmount: 32
+      Lore:
+        - '&7Chance: &e10%'
+      MaxRange: 100 
+      Chance: 10
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% GOLDEN_APPLE 32'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}    
+    20:
+      DisplayName: '&ax64 Golden Apples'
+      DisplayItem: 'GOLDEN_APPLE' 
+      DisplayAmount: 64
+      Lore:
+        - '&7Chance: &e5%'
+      MaxRange: 100 
+      Chance: 5
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% GOLDEN_APPLE 64'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}   
+    21:
+      DisplayName: '&ax2 Enchanted Golden Apples'
+      DisplayItem: 'ENCHANTED_GOLDEN_APPLE' 
+      DisplayAmount: 2
+      Lore:
+        - '&7Chance: &e4%'
+      MaxRange: 100 
+      Chance: 4
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% ENCHANTED_GOLDEN_APPLE 2'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}  
+    22:
+      DisplayName: '&ax4 Enchanted Golden Apples'
+      DisplayItem: 'ENCHANTED_GOLDEN_APPLE' 
+      DisplayAmount: 4
+      Lore:
+        - '&7Chance: &e2%'
+      MaxRange: 100 
+      Chance: 2
+      Firework: false 
+      Glowing: false 
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'give %Player% ENCHANTED_GOLDEN_APPLE 4'
+      BlackListed-Permissions: {} 
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {} 
+    23:
+      DisplayName: '&ax1 Common Enchant Book'
+      DisplayItem: 'BOOK'
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e3%'
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'ce lostbook Common 1 %Player%'
+      BlackListed-Permissions: {}
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+    24:
+      DisplayName: '&ax1 Rare Enchant Book'
+      DisplayItem: 'BOOK'
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e2%'
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'ce lostbook Rare 1 %Player%'
+      BlackListed-Permissions: {}
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+    25:
+      DisplayName: '&ax1 Legendary Enchant Book'
+      DisplayItem: 'BOOK'
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e2%'
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'ce lostbook Legendary 1 %Player%'
+      BlackListed-Permissions: {}
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+    26:
+      DisplayName: '&aKit Vip'
+      DisplayItem: 'CHAINMAIL_HELMET'
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e10%'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'kit Vip %Player%'
+      BlackListed-Permissions: {}
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+    27:
+      DisplayName: '&aKit Vip+'
+      DisplayItem: 'IRON_HELMET'
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'kit Vip+ %Player%'
+      BlackListed-Permissions: {}
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+    28:
+      DisplayName: '&aKit Mvp'
+      DisplayItem: 'DIAMOND_HELMET'
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'kit Mvp %Player%'
+      BlackListed-Permissions: {}
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+    29:
+      DisplayName: '&ax1 Legendary Key'
+      DisplayItem: 'TRIPWIRE_HOOK'
+      DisplayAmount: 1
+      Lore:
+        - '&7Chance: &e3%'
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'cc give p legendary 1 %Player%'
+      BlackListed-Permissions: {}
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+    30:
+      DisplayName: '&ax2 Legendary Key'
+      DisplayItem: 'TRIPWIRE_HOOK'
+      DisplayAmount: 2
+      Lore:
+        - '&7Chance: &e2%'
+      MaxRange: 100
+      Chance: 2
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'cc give p legendary 2 %Player%'
+      BlackListed-Permissions: {}
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+    31:
+      DisplayName: '&a20 Exp Levels'
+      DisplayItem: 'EXPERIENCE_BOTTLE'
+      DisplayAmount: 20
+      Lore:
+        - '&7Chance: &e5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'xp give %Player% L20'
+      BlackListed-Permissions: {}
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+    32:
+      DisplayName: '&a30 Exp Levels'
+      DisplayItem: 'EXPERIENCE_BOTTLE'
+      DisplayAmount: 30
+      Lore:
+        - '&7Chance: &e3%'
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'xp give %Player% L30'
+      BlackListed-Permissions: {}
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+    33:
+      DisplayName: '&a50 Exp Levels'
+      DisplayItem: 'EXPERIENCE_BOTTLE'
+      DisplayAmount: 50
+      Lore:
+        - '&7Chance: &e1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'xp give %Player% L50'
+      BlackListed-Permissions: {}
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}

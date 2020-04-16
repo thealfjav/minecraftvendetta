@@ -1,0 +1,3265 @@
+    menu_title: '&8Foraging Challenges'
+    open_command: 98kdk@#€¬kl23
+    size: 45
+    items:
+      'Decoration':
+        material: 160
+        data: 7
+        slots:
+        - 2
+        - 4
+        - 6
+        - 10
+        - 16
+        - 18
+        - 19
+        - 25
+        - 26
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 38
+        - 42
+      'Decoration-1':
+        material: 160
+        data: 15
+        slots: 
+        - 0
+        - 1
+        - 3
+        - 5
+        - 7
+        - 8
+        - 9
+        - 17
+        - 27
+        - 36
+        - 37
+        - 39
+        - 41
+        - 43
+        - 44
+      'Back':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+        slot: 40
+        display_name: '&aBack'
+        lore: ''
+        left_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] challenges'
+        right_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] challenges'
+      'No-A':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+        display_name: '&cNot available'
+        slots:
+        - 21
+        - 22
+        - 23
+        - 24    
+      'nomoreOakloglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 1
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.9' 
+        lore:
+        - '&8Lev 9 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&240000'
+        - '&7Level: &b9&7/&39' 
+        - ''
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&cNo more challenges availables'   
+      'completedOakloglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 2
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.8' 
+        lore:
+        - '&8Lev 9 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&240000'
+        - '&7Level: &b9&7/&39' 
+        - ''
+        - '&7Reward: &d80000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e80000 ⛁&7.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Oak.9'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e80000 ⛁&7.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Oak.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressOakloglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 3
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.8' 
+        lore:
+        - '&8Lev 9 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&240000'
+        - '&7Level: &b9&7/&39'
+        - ''
+        - '&7Reward: &d80000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedOakloglev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 4
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.8' 
+        lore:
+        - '&8Lev 8 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&220000'
+        - '&7Level: &b8&7/&39' 
+        - ''
+        - '&7Reward: &d40000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e40000 ⛁&7.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Oak.9'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e40000 ⛁&7.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Oak.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressOakloglev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 5
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.8' 
+        lore:
+        - '&8Lev 8 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&220000'
+        - '&7Level: &b8&7/&39'
+        - ''
+        - '&7Reward: &d40000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedOakloglev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 6
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.7' 
+        lore:
+        - '&8Lev 7 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&210000'
+        - '&7Level: &b7&7/&39' 
+        - ''
+        - '&7Reward: &d20000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e20000 ⛁&7.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Oak.8'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e20000 ⛁&7.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Oak.8'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressOakloglev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 7
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.7' 
+        lore:
+        - '&8Lev 7 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&210000'
+        - '&7Level: &b7&7/&39'
+        - ''
+        - '&7Reward: &d20000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedOakloglev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 8
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.6' 
+        lore:
+        - '&8Lev 6 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&25000'
+        - '&7Level: &b6&7/&39' 
+        - ''
+        - '&7Reward: &d10000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e10000 ⛁&7.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Oak.7'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e10000 ⛁&7.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Oak.7'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressOakloglev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 9
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.6' 
+        lore:
+        - '&8Lev 6 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&25000'
+        - '&7Level: &b6&7/&39'
+        - ''
+        - '&7Reward: &d10000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedOakloglev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 10
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.5' 
+        lore:
+        - '&8Lev 5 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&22000'
+        - '&7Level: &b5&7/&39' 
+        - ''
+        - '&7Reward: &d4000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e4000 ⛁&7.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Oak.6'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e4000 ⛁&7.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Oak.6'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressOakloglev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 11
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.5' 
+        lore:
+        - '&8Lev 5 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&22000'
+        - '&7Level: &b5&7/&39'
+        - ''
+        - '&7Reward: &d4000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedOakloglev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 12
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.4' 
+        lore:
+        - '&8Lev 4 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&21000'
+        - '&7Level: &b4&7/&39' 
+        - ''
+        - '&7Reward: &d2500 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e2500 ⛁&7.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Oak.5'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e2500 ⛁&7.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Oak.5'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressOakloglev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 13
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.4' 
+        lore:
+        - '&8Lev 4 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&21000'
+        - '&7Level: &b4&7/&39'
+        - ''
+        - '&7Reward: &d2500 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedOakloglev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 14
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.3' 
+        lore:
+        - '&8Lev 3 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&2500'
+        - '&7Level: &b3&7/&39' 
+        - ''
+        - '&7Reward: &d1500 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e1500 ⛁&7.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Oak.4'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e1500 ⛁&7.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Oak.4'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressOakloglev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 15
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.3' 
+        lore:
+        - '&8Lev 3 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&2500'
+        - '&7Level: &b3&7/&39'
+        - ''
+        - '&7Reward: &d1500 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedOakloglev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 16
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.2' 
+        lore:
+        - '&8Lev 2 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&2250'
+        - '&7Level: &b2&7/&39' 
+        - ''
+        - '&7Reward: &d800 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e800 ⛁&7.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Oak.3'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e800 ⛁&7.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Oak.3'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressOakloglev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 17
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 100
+            Pex:
+              type: has permission
+              permission: 'challenge.Oak.2' 
+        lore:
+        - '&8Lev 2 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&2250'
+        - '&7Level: &b2&7/&39'
+        - ''
+        - '&7Reward: &d800 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedOakloglev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 18
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:oak_log%'
+              output: 100
+        lore:
+        - '&8Lev 1 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&2100'
+        - '&7Level: &b1&7/&39' 
+        - ''
+        - '&7Reward: &d300 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e300 ⛁&7.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Oak.2'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e300 ⛁&7.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Oak.2'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressOakloglev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19
+        priority: 19
+        slot: 11
+        display_name: '&aOak Log Challenge'
+        lore:
+        - '&8Lev 1 Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Oak_log%&7/&2100'
+        - '&7Level: &b1&7/&39'
+        - ''
+        - '&7Reward: &d300 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''  
+      'nomoreSpruceloglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 1
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:Spruce_log%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.9' 
+        lore:
+        - '&8Lev 9 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&240000'
+        - '&7Level: &b9&7/&39' 
+        - ''
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&cNo more challenges availables'  
+      'completedSpruceloglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 2
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.8' 
+        lore:
+        - '&8Lev 9 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&240000'
+        - '&7Level: &b9&7/&39' 
+        - ''
+        - '&7Reward: &d80000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e80000 ⛁&7.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Spruce.9'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e80000 ⛁&7.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Spruce.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressSpruceloglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 3
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.8' 
+        lore:
+        - '&8Lev 9 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&240000'
+        - '&7Level: &b9&7/&39'
+        - ''
+        - '&7Reward: &d80000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedSpruceloglev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 4
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.8' 
+        lore:
+        - '&8Lev 8 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&220000'
+        - '&7Level: &b8&7/&39' 
+        - ''
+        - '&7Reward: &d40000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e40000 ⛁&7.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Spruce.9'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e40000 ⛁&7.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Spruce.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressSpruceloglev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 5
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.8' 
+        lore:
+        - '&8Lev 8 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&220000'
+        - '&7Level: &b8&7/&39'
+        - ''
+        - '&7Reward: &d40000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedSpruceloglev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 6
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.7' 
+        lore:
+        - '&8Lev 7 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&210000'
+        - '&7Level: &b7&7/&39' 
+        - ''
+        - '&7Reward: &d20000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e20000 ⛁&7.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Spruce.8'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e20000 ⛁&7.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Spruce.8'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressSpruceloglev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 7
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.7' 
+        lore:
+        - '&8Lev 7 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&210000'
+        - '&7Level: &b7&7/&39'
+        - ''
+        - '&7Reward: &d20000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedSpruceloglev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 8
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.6' 
+        lore:
+        - '&8Lev 6 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&25000'
+        - '&7Level: &b6&7/&39' 
+        - ''
+        - '&7Reward: &d10000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e10000 ⛁&7.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Spruce.7'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e10000 ⛁&7.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Spruce.7'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressSpruceloglev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 9
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.6' 
+        lore:
+        - '&8Lev 6 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&25000'
+        - '&7Level: &b6&7/&39'
+        - ''
+        - '&7Reward: &d10000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedSpruceloglev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 10
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.5' 
+        lore:
+        - '&8Lev 5 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&22000'
+        - '&7Level: &b5&7/&39' 
+        - ''
+        - '&7Reward: &d4000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e4000 ⛁&7.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Spruce.6'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e4000 ⛁&7.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Spruce.6'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressSpruceloglev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 11
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.5' 
+        lore:
+        - '&8Lev 5 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&22000'
+        - '&7Level: &b5&7/&39'
+        - ''
+        - '&7Reward: &d4000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedSpruceloglev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 12
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.4' 
+        lore:
+        - '&8Lev 4 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&21000'
+        - '&7Level: &b4&7/&39' 
+        - ''
+        - '&7Reward: &d2500 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e2500 ⛁&7.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Spruce.5'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e2500 ⛁&7.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Spruce.5'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressSpruceloglev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 13
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.4' 
+        lore:
+        - '&8Lev 4 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&21000'
+        - '&7Level: &b4&7/&39'
+        - ''
+        - '&7Reward: &d2500 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedSpruceloglev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 14
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.3' 
+        lore:
+        - '&8Lev 3 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&2500'
+        - '&7Level: &b3&7/&39' 
+        - ''
+        - '&7Reward: &d1500 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e1500 ⛁&7.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Spruce.4'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e1500 ⛁&7.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Spruce.4'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressSpruceloglev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 15
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.3' 
+        lore:
+        - '&8Lev 3 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&2500'
+        - '&7Level: &b3&7/&39'
+        - ''
+        - '&7Reward: &d1500 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedSpruceloglev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 16
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.2' 
+        lore:
+        - '&8Lev 2 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&2250'
+        - '&7Level: &b2&7/&39' 
+        - ''
+        - '&7Reward: &d800 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e800 ⛁&7.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Spruce.3'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e800 ⛁&7.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Spruce.3'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressSpruceloglev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 17
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 100
+            Pex:
+              type: has permission
+              permission: 'challenge.Spruce.2' 
+        lore:
+        - '&8Lev 2 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&2250'
+        - '&7Level: &b2&7/&39'
+        - ''
+        - '&7Reward: &d800 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedSpruceloglev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 18
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:spruce_log%'
+              output: 100
+        lore:
+        - '&8Lev 1 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&2100'
+        - '&7Level: &b1&7/&39' 
+        - ''
+        - '&7Reward: &d300 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e300 ⛁&7.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Spruce.2'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e300 ⛁&7.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Spruce.2'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressSpruceloglev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI2ZWVmZDg3MjYzY2M0ODVjMTdjYjVmODE4ZWUzYmFkOTNjYTc2OTEzODVjYjVlNWQ2OThhZmY3MzNhMyJ9fX0=
+        priority: 19
+        slot: 12
+        display_name: '&aSpruce Log Challenge'
+        lore:
+        - '&8Lev 1 Spruce Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Spruce_log%&7/&2100'
+        - '&7Level: &b1&7/&39'
+        - ''
+        - '&7Reward: &d300 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''  
+      'completedBirchloglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 2
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.8' 
+        lore:
+        - '&8Lev 9 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&240000'
+        - '&7Level: &b9&7/&39' 
+        - ''
+        - '&7Reward: &d80000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e80000 ⛁&7.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Birch.9'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e80000 ⛁&7.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Birch.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'nomoreBirchloglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 1
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:Birch_log%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.9' 
+        lore:
+        - '&8Lev 9 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&240000'
+        - '&7Level: &b9&7/&39' 
+        - ''
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&cNo more challenges availables'  
+      'inprogressBirchloglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 3
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.8' 
+        lore:
+        - '&8Lev 9 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&240000'
+        - '&7Level: &b9&7/&39'
+        - ''
+        - '&7Reward: &d80000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedBirchloglev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 4
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.8' 
+        lore:
+        - '&8Lev 8 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&220000'
+        - '&7Level: &b8&7/&39' 
+        - ''
+        - '&7Reward: &d40000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e40000 ⛁&7.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Birch.9'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e40000 ⛁&7.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Birch.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressBirchloglev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 5
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.8' 
+        lore:
+        - '&8Lev 8 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&220000'
+        - '&7Level: &b8&7/&39'
+        - ''
+        - '&7Reward: &d40000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedBirchloglev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 6
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.7' 
+        lore:
+        - '&8Lev 7 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&210000'
+        - '&7Level: &b7&7/&39' 
+        - ''
+        - '&7Reward: &d20000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e20000 ⛁&7.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Birch.8'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e20000 ⛁&7.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Birch.8'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressBirchloglev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 7
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.7' 
+        lore:
+        - '&8Lev 7 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&210000'
+        - '&7Level: &b7&7/&39'
+        - ''
+        - '&7Reward: &d20000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedBirchloglev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 8
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.6' 
+        lore:
+        - '&8Lev 6 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&25000'
+        - '&7Level: &b6&7/&39' 
+        - ''
+        - '&7Reward: &d10000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e10000 ⛁&7.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Birch.7'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e10000 ⛁&7.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Birch.7'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressBirchloglev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 9
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.6' 
+        lore:
+        - '&8Lev 6 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&25000'
+        - '&7Level: &b6&7/&39'
+        - ''
+        - '&7Reward: &d10000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedBirchloglev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 10
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.5' 
+        lore:
+        - '&8Lev 5 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&22000'
+        - '&7Level: &b5&7/&39' 
+        - ''
+        - '&7Reward: &d4000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e4000 ⛁&7.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Birch.6'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e4000 ⛁&7.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Birch.6'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressBirchloglev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 11
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.5' 
+        lore:
+        - '&8Lev 5 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&22000'
+        - '&7Level: &b5&7/&39'
+        - ''
+        - '&7Reward: &d4000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedBirchloglev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 12
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.4' 
+        lore:
+        - '&8Lev 4 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&21000'
+        - '&7Level: &b4&7/&39' 
+        - ''
+        - '&7Reward: &d2500 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e2500 ⛁&7.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Birch.5'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e2500 ⛁&7.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Birch.5'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressBirchloglev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 13
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.4' 
+        lore:
+        - '&8Lev 4 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&21000'
+        - '&7Level: &b4&7/&39'
+        - ''
+        - '&7Reward: &d2500 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedBirchloglev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 14
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.3' 
+        lore:
+        - '&8Lev 3 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&2500'
+        - '&7Level: &b3&7/&39' 
+        - ''
+        - '&7Reward: &d1500 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e1500 ⛁&7.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Birch.4'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e1500 ⛁&7.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Birch.4'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressBirchloglev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 15
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.3' 
+        lore:
+        - '&8Lev 3 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&2500'
+        - '&7Level: &b3&7/&39'
+        - ''
+        - '&7Reward: &d1500 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedBirchloglev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 16
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.2' 
+        lore:
+        - '&8Lev 2 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&2250'
+        - '&7Level: &b2&7/&39' 
+        - ''
+        - '&7Reward: &d800 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e800 ⛁&7.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Birch.3'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e800 ⛁&7.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Birch.3'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressBirchloglev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 17
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 100
+            Pex:
+              type: has permission
+              permission: 'challenge.Birch.2' 
+        lore:
+        - '&8Lev 2 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&2250'
+        - '&7Level: &b2&7/&39'
+        - ''
+        - '&7Reward: &d800 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedBirchloglev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 18
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:birch_log%'
+              output: 100
+        lore:
+        - '&8Lev 1 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&2100'
+        - '&7Level: &b1&7/&39' 
+        - ''
+        - '&7Reward: &d300 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e300 ⛁&7.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Birch.2'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e300 ⛁&7.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Birch.2'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressBirchloglev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MWYzYjczZWJiOWRlYzkxZWRkYzgzNjFjYTJmZWNmNTI4MGQyYzczM2VkYTllY2I2OTVmODNkMTU4MCJ9fX0=
+        priority: 19
+        slot: 13
+        display_name: '&aBirch Log Challenge'
+        lore:
+        - '&8Lev 1 Birch Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Birch_log%&7/&2100'
+        - '&7Level: &b1&7/&39'
+        - ''
+        - '&7Reward: &d300 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''  
+      'nomoreJungleloglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 1
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:Jungle_log%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.9' 
+        lore:
+        - '&8Lev 9 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&240000'
+        - '&7Level: &b9&7/&39' 
+        - ''
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&cNo more challenges availables' 
+      'completedJungleloglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 2
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.8' 
+        lore:
+        - '&8Lev 9 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&240000'
+        - '&7Level: &b9&7/&39' 
+        - ''
+        - '&7Reward: &d80000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e80000 ⛁&7.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Jungle.9'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e80000 ⛁&7.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Jungle.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressJungleloglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 3
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.8' 
+        lore:
+        - '&8Lev 9 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&240000'
+        - '&7Level: &b9&7/&39'
+        - ''
+        - '&7Reward: &d80000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedJungleloglev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 4
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.8' 
+        lore:
+        - '&8Lev 8 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&220000'
+        - '&7Level: &b8&7/&39' 
+        - ''
+        - '&7Reward: &d40000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e40000 ⛁&7.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Jungle.9'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e40000 ⛁&7.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Jungle.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressJungleloglev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 5
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.8' 
+        lore:
+        - '&8Lev 8 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&220000'
+        - '&7Level: &b8&7/&39'
+        - ''
+        - '&7Reward: &d40000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedJungleloglev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 6
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.7' 
+        lore:
+        - '&8Lev 7 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&210000'
+        - '&7Level: &b7&7/&39' 
+        - ''
+        - '&7Reward: &d20000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e20000 ⛁&7.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Jungle.8'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e20000 ⛁&7.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Jungle.8'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressJungleloglev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 7
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.7' 
+        lore:
+        - '&8Lev 7 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&210000'
+        - '&7Level: &b7&7/&39'
+        - ''
+        - '&7Reward: &d20000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedJungleloglev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 8
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.6' 
+        lore:
+        - '&8Lev 6 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&25000'
+        - '&7Level: &b6&7/&39' 
+        - ''
+        - '&7Reward: &d10000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e10000 ⛁&7.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Jungle.7'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e10000 ⛁&7.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Jungle.7'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressJungleloglev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 9
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.6' 
+        lore:
+        - '&8Lev 6 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&25000'
+        - '&7Level: &b6&7/&39'
+        - ''
+        - '&7Reward: &d10000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedJungleloglev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 10
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.5' 
+        lore:
+        - '&8Lev 5 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&22000'
+        - '&7Level: &b5&7/&39' 
+        - ''
+        - '&7Reward: &d4000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e4000 ⛁&7.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Jungle.6'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e4000 ⛁&7.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Jungle.6'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressJungleloglev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 11
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.5' 
+        lore:
+        - '&8Lev 5 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&22000'
+        - '&7Level: &b5&7/&39'
+        - ''
+        - '&7Reward: &d4000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedJungleloglev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 12
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.4' 
+        lore:
+        - '&8Lev 4 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&21000'
+        - '&7Level: &b4&7/&39' 
+        - ''
+        - '&7Reward: &d2500 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e2500 ⛁&7.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Jungle.5'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e2500 ⛁&7.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Jungle.5'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressJungleloglev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 13
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.4' 
+        lore:
+        - '&8Lev 4 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&21000'
+        - '&7Level: &b4&7/&39'
+        - ''
+        - '&7Reward: &d2500 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedJungleloglev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 14
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.3' 
+        lore:
+        - '&8Lev 3 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&2500'
+        - '&7Level: &b3&7/&39' 
+        - ''
+        - '&7Reward: &d1500 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e1500 ⛁&7.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Jungle.4'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e1500 ⛁&7.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Jungle.4'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressJungleloglev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 15
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.3' 
+        lore:
+        - '&8Lev 3 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&2500'
+        - '&7Level: &b3&7/&39'
+        - ''
+        - '&7Reward: &d1500 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedJungleloglev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 16
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.2' 
+        lore:
+        - '&8Lev 2 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&2250'
+        - '&7Level: &b2&7/&39' 
+        - ''
+        - '&7Reward: &d800 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e800 ⛁&7.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Jungle.3'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e800 ⛁&7.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Jungle.3'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressJungleloglev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 17
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 100
+            Pex:
+              type: has permission
+              permission: 'challenge.Jungle.2' 
+        lore:
+        - '&8Lev 2 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&2250'
+        - '&7Level: &b2&7/&39'
+        - ''
+        - '&7Reward: &d800 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedJungleloglev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 18
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:jungle_log%'
+              output: 100
+        lore:
+        - '&8Lev 1 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&2100'
+        - '&7Level: &b1&7/&39' 
+        - ''
+        - '&7Reward: &d300 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e300 ⛁&7.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Jungle.2'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e300 ⛁&7.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Jungle.2'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressJungleloglev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzljYTM1NDA2MjFjMWM3OWMzMmJmNDI0Mzg3MDhmZjFmNWY3ZDBhZjliMTRhMDc0NzMxMTA3ZWRmZWI2OTFjIn19fQ==
+        priority: 19
+        slot: 14
+        display_name: '&aJungle Log Challenge'
+        lore:
+        - '&8Lev 1 Jungle Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Jungle_log%&7/&2100'
+        - '&7Level: &b1&7/&39'
+        - ''
+        - '&7Reward: &d300 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''  
+      'completedAcacialoglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 2
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.8' 
+        lore:
+        - '&8Lev 9 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&240000'
+        - '&7Level: &b9&7/&39' 
+        - ''
+        - '&7Reward: &d80000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e80000 ⛁&7.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Acacia.9'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e80000 ⛁&7.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Acacia.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'nomoreAcacialoglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 1
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:Acacia_log%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.9' 
+        lore:
+        - '&8Lev 9 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&240000'
+        - '&7Level: &b9&7/&39' 
+        - ''
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&cNo more challenges availables' 
+      'inprogressAcacialoglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 3
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.8' 
+        lore:
+        - '&8Lev 9 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&240000'
+        - '&7Level: &b9&7/&39'
+        - ''
+        - '&7Reward: &d80000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedAcacialoglev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 4
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.8' 
+        lore:
+        - '&8Lev 8 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&220000'
+        - '&7Level: &b8&7/&39' 
+        - ''
+        - '&7Reward: &d40000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e40000 ⛁&7.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Acacia.9'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e40000 ⛁&7.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Acacia.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressAcacialoglev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 5
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.8' 
+        lore:
+        - '&8Lev 8 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&220000'
+        - '&7Level: &b8&7/&39'
+        - ''
+        - '&7Reward: &d40000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedAcacialoglev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 6
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.7' 
+        lore:
+        - '&8Lev 7 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&210000'
+        - '&7Level: &b7&7/&39' 
+        - ''
+        - '&7Reward: &d20000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e20000 ⛁&7.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Acacia.8'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e20000 ⛁&7.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Acacia.8'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressAcacialoglev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 7
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.7' 
+        lore:
+        - '&8Lev 7 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&210000'
+        - '&7Level: &b7&7/&39'
+        - ''
+        - '&7Reward: &d20000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedAcacialoglev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 8
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.6' 
+        lore:
+        - '&8Lev 6 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&25000'
+        - '&7Level: &b6&7/&39' 
+        - ''
+        - '&7Reward: &d10000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e10000 ⛁&7.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Acacia.7'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e10000 ⛁&7.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Acacia.7'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressAcacialoglev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 9
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.6' 
+        lore:
+        - '&8Lev 6 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&25000'
+        - '&7Level: &b6&7/&39'
+        - ''
+        - '&7Reward: &d10000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedAcacialoglev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 10
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.5' 
+        lore:
+        - '&8Lev 5 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&22000'
+        - '&7Level: &b5&7/&39' 
+        - ''
+        - '&7Reward: &d4000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e4000 ⛁&7.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Acacia.6'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e4000 ⛁&7.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Acacia.6'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressAcacialoglev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 11
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.5' 
+        lore:
+        - '&8Lev 5 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&22000'
+        - '&7Level: &b5&7/&39'
+        - ''
+        - '&7Reward: &d4000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedAcacialoglev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 12
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.4' 
+        lore:
+        - '&8Lev 4 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&21000'
+        - '&7Level: &b4&7/&39' 
+        - ''
+        - '&7Reward: &d2500 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e2500 ⛁&7.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Acacia.5'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e2500 ⛁&7.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Acacia.5'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressAcacialoglev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 13
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.4' 
+        lore:
+        - '&8Lev 4 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&21000'
+        - '&7Level: &b4&7/&39'
+        - ''
+        - '&7Reward: &d2500 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedAcacialoglev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 14
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.3' 
+        lore:
+        - '&8Lev 3 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&2500'
+        - '&7Level: &b3&7/&39' 
+        - ''
+        - '&7Reward: &d1500 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e1500 ⛁&7.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Acacia.4'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e1500 ⛁&7.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Acacia.4'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressAcacialoglev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 15
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.3' 
+        lore:
+        - '&8Lev 3 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&2500'
+        - '&7Level: &b3&7/&39'
+        - ''
+        - '&7Reward: &d1500 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedAcacialoglev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 16
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.2' 
+        lore:
+        - '&8Lev 2 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&2250'
+        - '&7Level: &b2&7/&39' 
+        - ''
+        - '&7Reward: &d800 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e800 ⛁&7.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Acacia.3'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e800 ⛁&7.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Acacia.3'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressAcacialoglev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 17
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 100
+            Pex:
+              type: has permission
+              permission: 'challenge.Acacia.2' 
+        lore:
+        - '&8Lev 2 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&2250'
+        - '&7Level: &b2&7/&39'
+        - ''
+        - '&7Reward: &d800 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedAcacialoglev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 18
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:acacia_log%'
+              output: 100
+        lore:
+        - '&8Lev 1 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&2100'
+        - '&7Level: &b1&7/&39' 
+        - ''
+        - '&7Reward: &d300 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e300 ⛁&7.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Acacia.2'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e300 ⛁&7.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Acacia.2'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressAcacialoglev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ==
+        priority: 19
+        slot: 15
+        display_name: '&aAcacia Log Challenge'
+        lore:
+        - '&8Lev 1 Acacia Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Acacia_log%&7/&2100'
+        - '&7Level: &b1&7/&39'
+        - ''
+        - '&7Reward: &d300 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''  
+      'nomoreDarkOakloglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 1
+        slot: 20
+        display_name: '&aDark Oak Log'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.8' 
+        lore:
+        - '&8Lev 9 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&240000'
+        - '&7Level: &b9&7/&39'
+        - ''
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&cNo more challenges availables'    
+      'completedDarkOakloglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 2
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.8' 
+        lore:
+        - '&8Lev 9 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&240000'
+        - '&7Level: &b9&7/&39' 
+        - ''
+        - '&7Reward: &d80000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e80000 ⛁&7.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.DarkOak.9'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e80000 ⛁&7.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.DarkOak.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressDarkOakloglev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 3
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.8' 
+        lore:
+        - '&8Lev 9 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&240000'
+        - '&7Level: &b9&7/&39'
+        - ''
+        - '&7Reward: &d80000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedDarkOakloglev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 4
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.8' 
+        lore:
+        - '&8Lev 8 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&220000'
+        - '&7Level: &b8&7/&39' 
+        - ''
+        - '&7Reward: &d40000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e40000 ⛁&7.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.DarkOak.9'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e40000 ⛁&7.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.DarkOak.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressDarkOakloglev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 5
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.8' 
+        lore:
+        - '&8Lev 8 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&220000'
+        - '&7Level: &b8&7/&39'
+        - ''
+        - '&7Reward: &d40000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedDarkOakloglev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 6
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.7' 
+        lore:
+        - '&8Lev 7 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&210000'
+        - '&7Level: &b7&7/&39' 
+        - ''
+        - '&7Reward: &d20000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e20000 ⛁&7.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.DarkOak.8'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e20000 ⛁&7.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.DarkOak.8'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressDarkOakloglev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 7
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.7' 
+        lore:
+        - '&8Lev 7 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&210000'
+        - '&7Level: &b7&7/&39'
+        - ''
+        - '&7Reward: &d20000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedDarkOakloglev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 8
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.6' 
+        lore:
+        - '&8Lev 6 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&25000'
+        - '&7Level: &b6&7/&39' 
+        - ''
+        - '&7Reward: &d10000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e10000 ⛁&7.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.DarkOak.7'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e10000 ⛁&7.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.DarkOak.7'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressDarkOakloglev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 9
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.6' 
+        lore:
+        - '&8Lev 6 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&25000'
+        - '&7Level: &b6&7/&39'
+        - ''
+        - '&7Reward: &d10000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedDarkOakloglev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 10
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.5' 
+        lore:
+        - '&8Lev 5 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&22000'
+        - '&7Level: &b5&7/&39' 
+        - ''
+        - '&7Reward: &d4000 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e4000 ⛁&7.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.DarkOak.6'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e4000 ⛁&7.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.DarkOak.6'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressDarkOakloglev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 11
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.5' 
+        lore:
+        - '&8Lev 5 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&22000'
+        - '&7Level: &b5&7/&39'
+        - ''
+        - '&7Reward: &d4000 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedDarkOakloglev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 12
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.4' 
+        lore:
+        - '&8Lev 4 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&21000'
+        - '&7Level: &b4&7/&39' 
+        - ''
+        - '&7Reward: &d2500 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e2500 ⛁&7.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.DarkOak.5'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e2500 ⛁&7.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.DarkOak.5'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressDarkOakloglev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 13
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.4' 
+        lore:
+        - '&8Lev 4 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&21000'
+        - '&7Level: &b4&7/&39'
+        - ''
+        - '&7Reward: &d2500 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedDarkOakloglev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 14
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.3' 
+        lore:
+        - '&8Lev 3 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&2500'
+        - '&7Level: &b3&7/&39' 
+        - ''
+        - '&7Reward: &d1500 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e1500 ⛁&7.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.DarkOak.4'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e1500 ⛁&7.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.DarkOak.4'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressDarkOakloglev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 15
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.3' 
+        lore:
+        - '&8Lev 3 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&2500'
+        - '&7Level: &b3&7/&39'
+        - ''
+        - '&7Reward: &d1500 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedDarkOakloglev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 16
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.2' 
+        lore:
+        - '&8Lev 2 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&2250'
+        - '&7Level: &b2&7/&39' 
+        - ''
+        - '&7Reward: &d800 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e800 ⛁&7.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.DarkOak.3'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e800 ⛁&7.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.DarkOak.3'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressDarkOakloglev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 17
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 100
+            Pex:
+              type: has permission
+              permission: 'challenge.DarkOak.2' 
+        lore:
+        - '&8Lev 2 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&2250'
+        - '&7Level: &b2&7/&39'
+        - ''
+        - '&7Reward: &d800 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''
+      'completedDarkOakloglev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 18
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:dark_oak_log%'
+              output: 100
+        lore:
+        - '&8Lev 1 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&2100'
+        - '&7Level: &b1&7/&39' 
+        - ''
+        - '&7Reward: &d300 &5⛁'
+        - '&7Status: &a&lCOMPLETED'
+        - ''
+        - '&eClick to claim'
+        left_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e300 ⛁&7.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.DarkOak.2'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm amsg %player_name% &a&lCHALLENGES &8&l» &7You have claimed the challenge and received &e300 ⛁&7.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.DarkOak.2'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressDarkOakloglev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZGM2ZThiNDVhZGNmOTI4ZjJjNjEzOWRmYTJhMzYxYWExMDdiODljOWFkMzVjMzQ3YjY3N2EwN2M3OWY1In19fQ==
+        priority: 19
+        slot: 20
+        display_name: '&aDark Oak Log Challenge'
+        lore:
+        - '&8Lev 1 Dark Oak Log'
+        - ''
+        - '&7Progress: &a%statistic_mine_block:Dark_Oak_Log%&7/&2100'
+        - '&7Level: &b1&7/&39'
+        - ''
+        - '&7Reward: &d300 &5⛁'
+        - '&7Status: &6&lIN PROGRESS'
+        - ''   

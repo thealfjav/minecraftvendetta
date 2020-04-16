@@ -1,0 +1,101 @@
+February 19 2020 (8:29:54) - Illegal stack of items removed: GOLD_AXE (2) from player: xNickax at item scan.
+February 19 2020 (8:29:54) - Illegal stack of items removed: IRON_AXE (2) from player: xNickax at item scan.
+February 19 2020 (8:29:54) - Illegal stack of items removed: DIAMOND_AXE (2) from player: xNickax at item scan.
+February 19 2020 (8:29:54) - Illegal stack of items removed: GOLD_AXE (3) from player: xNickax at item scan.
+February 19 2020 (8:29:54) - Illegal stack of items removed: IRON_AXE (3) from player: xNickax at item scan.
+February 19 2020 (8:29:54) - Illegal stack of items removed: DIAMOND_AXE (3) from player: xNickax at item scan.
+February 19 2020 (8:29:54) - Illegal stack of items removed: GOLD_AXE (4) from player: xNickax at item scan.
+February 19 2020 (8:29:54) - Illegal stack of items removed: IRON_AXE (4) from player: xNickax at item scan.
+February 19 2020 (8:29:54) - Illegal stack of items removed: DIAMOND_AXE (4) from player: xNickax at item scan.
+February 26 2020 (6:42:10) - Illegal stack of items removed: STONE_SWORD (2) from player: xNickax at item scan.
+February 26 2020 (6:42:10) - Illegal stack of items removed: IRON_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (6:42:10) - Illegal stack of items removed: IRON_AXE (2) from player: xNickax at item scan.
+February 26 2020 (6:42:10) - Illegal stack of items removed: CHAINMAIL_HELMET (2) from player: xNickax at item scan.
+February 26 2020 (6:42:10) - Illegal stack of items removed: CHAINMAIL_CHESTPLATE (2) from player: xNickax at item scan.
+February 26 2020 (6:42:10) - Illegal stack of items removed: CHAINMAIL_LEGGINGS (2) from player: xNickax at item scan.
+February 26 2020 (6:42:10) - Illegal stack of items removed: CHAINMAIL_BOOTS (2) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: GOLD_PICKAXE (64) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: IRON_PICKAXE (64) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: DIAMOND_PICKAXE (64) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: GOLD_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: IRON_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: DIAMOND_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: GOLD_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: IRON_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: DIAMOND_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: GOLD_PICKAXE (3) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: IRON_PICKAXE (3) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: DIAMOND_PICKAXE (3) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: GOLD_PICKAXE (64) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: IRON_PICKAXE (64) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: DIAMOND_PICKAXE (64) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: GOLD_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: IRON_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: DIAMOND_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: GOLD_PICKAXE (64) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: IRON_PICKAXE (64) from player: xNickax at item scan.
+February 26 2020 (8:12:2) - Illegal stack of items removed: DIAMOND_PICKAXE (64) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: DIAMOND_HELMET (2) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: DIAMOND_CHESTPLATE (2) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: DIAMOND_LEGGINGS (2) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: DIAMOND_BOOTS (2) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: DIAMOND_SWORD (2) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: BOW (2) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: DIAMOND_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: DIAMOND_AXE (2) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: GOLD_SWORD (2) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: IRON_SWORD (2) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: DIAMOND_SWORD (2) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: BOW (2) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: DIAMOND_HELMET (3) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: DIAMOND_CHESTPLATE (3) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: DIAMOND_LEGGINGS (3) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: DIAMOND_BOOTS (3) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: DIAMOND_SWORD (3) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: BOW (3) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: DIAMOND_PICKAXE (3) from player: xNickax at item scan.
+February 26 2020 (9:24:30) - Illegal stack of items removed: DIAMOND_AXE (3) from player: xNickax at item scan.
+February 26 2020 (9:51:31) - Illegal stack of items removed: DIAMOND_HELMET (2) from player: xNickax at item scan.
+February 26 2020 (9:51:31) - Illegal stack of items removed: DIAMOND_CHESTPLATE (2) from player: xNickax at item scan.
+February 26 2020 (9:51:31) - Illegal stack of items removed: DIAMOND_LEGGINGS (2) from player: xNickax at item scan.
+February 26 2020 (9:51:31) - Illegal stack of items removed: DIAMOND_BOOTS (2) from player: xNickax at item scan.
+February 26 2020 (9:51:31) - Illegal stack of items removed: DIAMOND_SWORD (2) from player: xNickax at item scan.
+February 26 2020 (9:51:31) - Illegal stack of items removed: BOW (2) from player: xNickax at item scan.
+February 26 2020 (9:51:31) - Illegal stack of items removed: DIAMOND_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (9:51:31) - Illegal stack of items removed: DIAMOND_AXE (2) from player: xNickax at item scan.
+February 26 2020 (9:52:45) - Illegal stack of items removed: DIAMOND_HELMET (2) from player: xNickax at item scan.
+February 26 2020 (9:52:45) - Illegal stack of items removed: DIAMOND_CHESTPLATE (2) from player: xNickax at item scan.
+February 26 2020 (9:52:45) - Illegal stack of items removed: DIAMOND_LEGGINGS (2) from player: xNickax at item scan.
+February 26 2020 (9:52:45) - Illegal stack of items removed: DIAMOND_BOOTS (2) from player: xNickax at item scan.
+February 26 2020 (9:52:45) - Illegal stack of items removed: BOW (2) from player: xNickax at item scan.
+February 26 2020 (9:52:45) - Illegal stack of items removed: DIAMOND_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (9:52:45) - Illegal stack of items removed: DIAMOND_AXE (2) from player: xNickax at item scan.
+February 26 2020 (9:54:50) - Illegal stack of items removed: GOLD_SWORD (2) from player: xNickax at item scan.
+February 26 2020 (9:54:50) - Illegal stack of items removed: IRON_SWORD (2) from player: xNickax at item scan.
+February 26 2020 (9:54:50) - Illegal stack of items removed: GOLD_SWORD (3) from player: xNickax at item scan.
+February 26 2020 (9:54:50) - Illegal stack of items removed: IRON_SWORD (3) from player: xNickax at item scan.
+February 26 2020 (9:54:50) - Illegal stack of items removed: WATER_BUCKET (2) from player: xNickax at item scan.
+February 26 2020 (9:54:50) - Illegal stack of items removed: WATER_BUCKET (2) from player: xNickax at item scan.
+February 26 2020 (10:1:38) - Illegal stack of items removed: GOLD_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (10:1:38) - Illegal stack of items removed: IRON_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (10:1:38) - Illegal stack of items removed: DIAMOND_PICKAXE (2) from player: xNickax at item scan.
+February 26 2020 (10:2:56) - Illegal stack of items removed: IRON_AXE (3) from player: xNickax at item scan.
+February 26 2020 (10:5:42) - Fixed an illegal stack of: IRON_AXE (2) triggered by player: xNickax.
+February 28 2020 (10:38:10) - Fixed an illegal stack of: BOAT_SPRUCE (64) triggered by player: xNickax.
+February 31 2020 (8:57:46) - Fixed an illegal stack of: WATER_BUCKET (1) triggered by player: xNickax.
+February 31 2020 (8:57:46) - Fixed an illegal stack of: WATER_BUCKET (1) triggered by player: xNickax.
+February 31 2020 (8:57:46) - Fixed an illegal stack of: WATER_BUCKET (1) triggered by player: xNickax.
+February 31 2020 (8:57:46) - Fixed an illegal stack of: WATER_BUCKET (4) triggered by player: xNickax.
+February 31 2020 (9:33:30) - Fixed an illegal stack of: GOLDEN_SWORD (1) triggered by player: xNickax.
+February 31 2020 (9:33:30) - Fixed an illegal stack of: BOW (1) triggered by player: xNickax.
+February 31 2020 (9:33:30) - Fixed an illegal stack of: GOLDEN_SWORD (1) triggered by player: xNickax.
+February 31 2020 (9:33:30) - Fixed an illegal stack of: BOW (1) triggered by player: xNickax.
+February 31 2020 (9:33:30) - Fixed an illegal stack of: GOLDEN_SWORD (1) triggered by player: xNickax.
+February 31 2020 (9:33:30) - Fixed an illegal stack of: BOW (1) triggered by player: xNickax.
+February 31 2020 (9:33:30) - Fixed an illegal stack of: GOLDEN_PICKAXE (1) triggered by player: xNickax.
+March 1 2020 (10:3:29) - Fixed an illegal stack of: FISHING_ROD (2) triggered by player: xNickax.
+March 1 2020 (10:3:29) - Fixed an illegal stack of: GOLDEN_SWORD (1) triggered by player: xNickax.
+March 1 2020 (10:3:29) - Fixed an illegal stack of: BOW (1) triggered by player: xNickax.
+March 1 2020 (10:3:29) - Fixed an illegal stack of: GOLDEN_PICKAXE (1) triggered by player: xNickax.
+March 1 2020 (10:3:29) - Fixed an illegal stack of: WATER_BUCKET (1) triggered by player: xNickax.
+March 1 2020 (10:3:29) - Fixed an illegal stack of: GOLDEN_AXE (1) triggered by player: xNickax.

@@ -1,0 +1,8 @@
+# Config!! YAY ^^
+Settings:
+  RemoveItem: 352
+  RedstoneItem: 331
+  OnlyFloorTouch: true
+  RedstoneListener: true
+  ClickListener: true
+  TouchListener: true

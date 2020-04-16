@@ -1,0 +1,11 @@
+[0;3;0]&a&lSURVIVAL
+[0;3;0]&a&lS&2&lU&f&lRVIVAL
+[0;3;0]&a&lSU&2&lR&f&lVIVAL
+[0;3;0]&a&lSUR&2&lV&f&lIVAL
+[0;3;0]&a&lSURV&2&lI&f&lVAL
+[0;3;0]&a&lSURVI&2&lV&f&lAL
+[0;3;0]&a&lSURVIV&2&lA&f&lL
+[0;3;0]&a&lSURVIVA&2&lL
+[0;3;0]&a&lSURVIVAL
+[0;3;0]&2&lSURVIVAL
+[0;3;0]&f&lSURVIVAL

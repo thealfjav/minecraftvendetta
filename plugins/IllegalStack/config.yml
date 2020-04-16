@@ -1,0 +1,126 @@
+ConfigVersion: '2.0'
+Exploits:
+  Enchants:
+    CustomEnchantOverride: []
+    AllowBypass: false
+    OnlyFunctionInWorlds: []
+    FixIllegalEnchants: false
+    RemoveUnbreakableFlag: false
+    RemoveCustomAttributes: false
+    EnchantedItemWhitelist: []
+  Other:
+    PreventInvalidElytraFlight: true
+    PreventNestedShulkers: true
+    PreventInvalidPotions: true
+    DisableChestsOnMobs: true
+    PreventBedrockDestruction: true
+    PreventItemSwapLagExploit: true
+    PreventRailDupe: true
+    PreventHoppersToUnloadedChunks: true
+    PreventZeroTickExploit: true
+  OverStack:
+    AllowStack:
+    - DIAMOND_PICKAXE
+    - IRON_PICKAXE
+    - DIAMOND_HELMET
+    - DIAMOND_SWORD
+    - FISHING_ROD
+    - GOLDEN_SWORD
+    - GOLDEN_AXE
+    - BOW
+    - WATER_BUCKET
+    - IRON_AXE
+    - GOLDEN_PICKAXE
+    - DIAMOND_HOE
+    - IRON_SWORD
+    - DIAMOND_CHESTPLATE
+    - DIAMOND_BOOTS
+    - LAVA_BUCKET
+    - IRON_HOE
+    - DIAMOND_LEGGINGS
+    - DIAMOND_AXE
+    RemoveItemsOfType: []
+    GroupStack: []
+    StackWhiteListMode: true
+    FixOverstackedItemInstead: true
+    RemoveOverstackedItems: true
+    PreventOverStackedItemInHoppers: true
+  PortalDupe:
+    BlockNonPlayersInEndPortal: true
+    NetherWhiteListMode: true
+    NotifyBlockedPortalAttempts: false
+    EndWhiteListMode: true
+    NetherWhiteList: []
+    BlockNonPlayersInNetherPortal: true
+    EndWhiteList: []
+  FishMod:
+    WarnPlayerThenKickInsteadOfNotify: false
+    WatchForAutoFishMod: true
+    MaxFishAllowedBeforeKick: 5
+    MaxFishToNotifyStaffThenBlock: 5
+  TNTDupe:
+    PreventIndirectTNTPowerDupe: true
+  RNGEnchant:
+    PreventRNGEnchant: true
+  BookExploit:
+    ValidCharset: US-ASCII
+    RemoveBooksNotMatchingCharset: true
+    BookAuthorWhitelist: []
+    DisableBookWriting: false
+    PageCountThreshold: 5
+  MineCart:
+    PreventMinecartGlitch: true
+    RemoveExistingGlitchedMinecarts: false
+    MinecartBlockWhiteList: []
+  Nether:
+    ExcludeNetherWorldFromHeightCheck: []
+    BlockPlayersAboveNether: true
+    NetherYLevel: 128
+  3rdParty:
+    BlockCMIShulkerStacking: true
+  SignExploit:
+    DestroyBadSignsOnChunkLoad: false
+  1_12_Exploits: {}
+  Fishing:
+    KickForAutoClickerFishing: true
+  DropperDupe:
+    BlockLoopedDroppers: false
+  Teleport:
+    PearlPhasing: true
+  1_13_Exploits:
+    PreventExcessiveFireworkExploit: true
+    PreventVillagerSwimExploit: true
+Exploit:
+  LagMachines:
+    End Crystal: true
+    ArmorStand: true
+  Teleport:
+    CorrectionNotify: false
+UserRequested:
+  ItemRemoval:
+    ItemLoresToRemove: []
+    NameLoreStrictMatchMode: false
+    BlockEnchantingInstead: false
+    ItemNamesToRemove: []
+    RemoveItemsMatchingName: false
+    BlockRepairsInstead: false
+  Obscure:
+    HopperCheck:
+      IgnoreAllHopperChecks: false
+    HackedShulker:
+      DestroyInvalidShulkers: false
+      CheckGroundForBadShulkerAtLogin: false
+    BlockBadItemsFromCreativeTab: false
+  Misc:
+    NotifyInsteadOfBlock: []
+  Mobs:
+    PreventZombieItemPickup: false
+  Spawners:
+    ResetSpawnersOfType: []
+Misc:
+  ItemScanTimer: 10
+  DisableInWorlds: []
+  BreakMachinesInsteadOfDroppingItems: true
+  LogOffensesInSeparateFile: true
+  NotifyNearbyPlayers: false
+  InGameOffenseNotifications: true

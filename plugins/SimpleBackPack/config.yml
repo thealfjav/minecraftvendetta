@@ -1,0 +1,52 @@
+Prefix: '&a&lBACKPACK &8&l» &7'
+Messages:
+  InventoryName:
+    Small: Small Backpack
+    SmallUp: Small+ Backpack
+    Medium: Medium Backpack
+    MediumUp: Medium+ Backpack
+    Large: Large Backpack
+    LargeUp: Large+ Backpack
+  ItemName:
+    Small: '&2* &aSmall BackPack &2*'
+    SmallUp: '&6Small+ BackPack'
+    Medium: '&b* &3Medium BackPack &b*'
+    MediumUp: '&6Medium+ BackPack'
+    Large: '&4* &cLarge BackPack &4*'
+    LargeUp: '&6Large+ BackPack'
+  ItemLore:
+    Small:
+    - '&6Small BackPack with a Size of &79 &6Slots'
+    SmallUp:
+    - '&6Small+ BackPack with a Size of &718 &6Slots'
+    Medium:
+    - '&6Medium BackPack with a Size of &727 &6Slots'
+    MediumUp:
+    - '&6Medium+ BackPack with a Size of &736 &6Slots'
+    Large:
+    - '&6Large BackPack with a Size of &745 &6Slots'
+    LargeUp:
+    - '&6Large+ BackPack with a Size of &754 &6Slots'
+  Texture:
+    Small: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhmODhiMTYxNzYzZjYyZTRjNTFmNWViMWQzOGZhZjNiODJjNDhhODM5YWMzMTcxMjI5NTU3YWRlNDI3NDM0In19fQ==
+    SmallUp: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhmODhiMTYxNzYzZjYyZTRjNTFmNWViMWQzOGZhZjNiODJjNDhhODM5YWMzMTcxMjI5NTU3YWRlNDI3NDM0In19fQ==
+    Medium: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNjNzk5NTRkMzUwYTk4YzcyMTcyNTY4MzFmNjVjNjJhNDI4MDc0YjZlNGFlOWVlZGU3YTQ0ZjlkZTRhNyJ9fX0=
+    MediumUp: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNjNzk5NTRkMzUwYTk4YzcyMTcyNTY4MzFmNjVjNjJhNDI4MDc0YjZlNGFlOWVlZGU3YTQ0ZjlkZTRhNyJ9fX0=
+    Large: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhjMWUxYzYyZGM2OTVlYjkwZmExOTJkYTZhY2E0OWFiNGY5ZGZmYjZhZGI1ZDI2MjllYmZjOWIyNzg4ZmEyIn19fQ==
+    LargeUp: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhjMWUxYzYyZGM2OTVlYjkwZmExOTJkYTZhY2E0OWFiNGY5ZGZmYjZhZGI1ZDI2MjllYmZjOWIyNzg4ZmEyIn19fQ==
+Values:
+  InventorySize:
+    Small: 27
+    SmallUp: 9
+    Medium: 36
+    MediumUp: 9
+    Large: 45
+    LargeUp: 9
+  PlaceBackPackToBackPack: true
+  ItemLore:
+    Small: false
+    SmallUp: false
+    Medium: false
+    MediumUp: false
+    Large: false
+    LargeUp: false

@@ -1,0 +1,115 @@
+gotosurvival:
+  location: Spawn, -32.515, 93.000, 79.513
+  lines:
+  - '&aGo to Survival'
+  - '&e&lJUMP TO GO'
+specialanvil:
+  location: Spawn, -105.510, 128.500, 63.410
+  lines:
+  - '&aSpecial Anvil'
+  - '&e&lCLICK'
+enchanter:
+  location: Spawn, -109.497, 128.700, 70.252
+  lines:
+  - '&aEnchanter'
+  - '&e&lCLICK'
+banker:
+  location: Spawn, -38.461, 81.700, 276.473
+  lines:
+  - '&aBanker'
+  - '&e&lCLICK'
+blacksmith:
+  location: Spawn, -108.462, 112.700, 68.502
+  lines:
+  - '&aBlackSmith'
+  - '&e&lCLICK'
+auctioner:
+  location: Spawn, 12.527, 101.700, 72.449
+  lines:
+  - '&aAuctioner'
+  - '&e&lCLICK'
+rewards:
+  location: Spawn, -41.508, 94.700, 76.549
+  lines:
+  - '&aMimi Mentor (Rewards)'
+  - '&e&lCLICK'
+Weaponsmith:
+  location: Spawn, -17.571, 87.700, 122.463
+  lines:
+  - '&aWeaponsmith'
+  - '&e&lCLICK'
+Miner:
+  location: Spawn, -17.499, 87.700, 136.473
+  lines:
+  - '&aMiner'
+  - '&e&lCLICK'
+Builder:
+  location: Spawn, -32.521, 87.700, 133.458
+  lines:
+  - '&aBuilder'
+  - '&e&lCLICK'
+Farmer:
+  location: Spawn, -46.531, 87.700, 133.410
+  lines:
+  - '&aFarmer'
+  - '&e&lCLICK'
+Lumberjack:
+  location: Spawn, -63.438, 87.700, 117.451
+  lines:
+  - '&aLumberjack'
+  - '&e&lCLICK'
+Adventurer:
+  location: Spawn, -60.537, 87.700, 133.398
+  lines:
+  - '&aAdventurer'
+  - '&e&lCLICK'
+Spawners:
+  location: Spawn, -63.475, 87.700, 103.550
+  lines:
+  - '&aSpawners'
+  - '&e&lCLICK'
+basic:
+  location: Spawn, -3.497, 101.200, 89.479
+  lines:
+  - '&aBasic Crate'
+  - '&e&lUSE A KEY'
+mega:
+  location: Spawn, -2.541, 101.200, 92.547
+  lines:
+  - '&aMega Crate'
+  - '&e&lUSE A KEY'
+legendary:
+  location: Spawn, -3.501, 101.200, 95.570
+  lines:
+  - '&aLegendary Crate'
+  - '&e&lUSE A KEY'
+fisherman:
+  location: Spawn, 7.494, 63.600, 152.500
+  lines:
+  - '&2* &aFisherman &2*'
+  - '&e&lCLICK'
+MinerMaster:
+  location: Spawn, -40.463, 52.600, 156.498
+  lines:
+  - '&2* &aMiner Master &2*'
+  - '&e&lCLICK'
+WoodCutter:
+  location: Spawn, 5.450, 65.600, 177.600
+  lines:
+  - '&2* &aWoodcutter &2*'
+  - '&e&lCLICK'
+FarmerMaster:
+  location: Spawn, 11.479, 71.600, 211.409
+  lines:
+  - '&2* &aFarmer Master &2*'
+  - '&e&lCLICK'
+Tom:
+  location: Spawn, -36.493, 93.600, 88.510
+  lines:
+  - '&2* &aMateos &2*'
+  - '&e&lCLICK'
+SuspectS:
+  location: Spawn, -70.439, 93.600, 87.577
+  lines:
+  - '&aSuspect Shop'
+  - '&e&lUSE A KEY'

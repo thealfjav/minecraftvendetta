@@ -1,0 +1,167 @@
+groups:
+  Owner:
+    options:
+      prefix: '&4&lOWNER &7'
+    permissions:
+    - nte.owner
+    - playtime.*
+    - essentials.*
+    - banksystem.*
+    - actionhealth.*
+    - blockcommand.*
+    - blockparticles.*
+    - grapplinghook.*
+    - blockregen.*
+    - citizens.*
+    - citizenstext.*
+    - simplebackpack.admin
+    - lagg.*
+    - climatechange.*
+    - commandnpc.*
+    - commandregions.*
+    - auctionmaster.admin
+    - crazyenchantments.*
+    - crazycrates.*
+    - deluxemenus.*
+    - exploitfixer.*
+    - worldedit.*
+    - worldguard.*
+    - Holograms.*
+    - illegalstack.*
+    - itemjoin.*
+    - jobs.*
+    - karenprotect.*
+    - farmrobot.admin
+    - nametagedit.*
+    - multiverse.core.*
+    - placeholderapi.*
+    - playerskillsreborn.*
+    - randomteleport.*
+    - shop.*
+    - silkspawners.*
+    - simplescore.*
+    - titlemanager.*
+    - trading.*
+    - vault.*
+    - voidspawn.*
+    - permissions.*
+    - fawe.*
+    - pluginhider.*
+    - bukkit.command.*
+    - minecraft.command.*
+    - statisticseditor.stats
+    - member.reward
+    - vip.reward
+    - vip+.reward
+    - mvp.reward
+    - mvp+.reward
+    - vip.colors
+    - vip+.colors
+    - mvp.colors
+    - mvp+.colors
+  Member:
+    options:
+      prefix: '&8[Member] &7'
+      default: true
+    permissions:
+    - nte.member
+    - trading.trade
+    - grapplinghook.use
+    - essentials.helpop
+    - essentials.msg
+    - essentials.pay
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.spawn
+    - essentials.warp
+    - essentials.warps.PvP
+    - essentials.warps.Mine
+    - essentials.warps.Enchanter
+    - essentials.warps.Crates
+    - essentials.warps.BlackSmith
+    - essentials.warps.Banker
+    - essentials.warps.Auctioner
+    - essentials.workbench
+    - essentials.enderchest
+    - essentials.disposal
+    - essentials.home
+    - essentials.sethome
+    - essentials.delhome
+    - essentials.balance.others
+    - essentials.balance
+    - essentials.kit
+    - essentials.kits.Member
+    - karenprotect.owners
+    - karenprotect.members
+    - karenprotect.protect.limit.3
+    - mineablespawners.mine
+    - shop.command.usage
+    - shop.command.open
+    - deluxemenus.open.*
+    - crazyenchantments.access
+    - crazyenchantments.blacksmith
+    - crazyenchantments.limit.10
+    - banksystem.command.deposit
+    - banksystem.command.withdraw
+    - member.reward
+    - BlockCommand.click
+  Vip:
+    options:
+      prefix: '&a&lVIP &7'
+    permissions:
+    - nte.vip
+    - rank.yes
+    - essentials.kits.Vip
+    - essentials.feed
+    - essentials.heal
+    - vip.reward
+    - vip.colors
+    inheritance:
+    - Member
+  Vip+:
+    options:
+      prefix: '&a&lVIP&e+ &7'
+    permissions:
+    - nte.vipplus
+    - essentials.kits.Vip+
+    - essentials.nick
+    - vip+.reward
+    - vip+.colors
+    inheritance:
+    - Vip
+  Mvp:
+    options:
+      prefix: '&b&lMVP &7'
+    permissions:
+    - nte.mvp
+    - essentials.kits.Mvp
+    - essentials.back
+    - essentials.back.ondeath
+    - mvp.reward
+    - mvp.colors
+    inheritance:
+    - Vip+
+  Mvp+:
+    options:
+      prefix: '&b&lMVP&e+ &7'
+    permissions:
+    - nte.mvpplus
+    - essentials.kits.Mvp+
+    - essentials.fly
+    - mvp+.reward
+    - mvp+.colors
+    inheritance:
+    - Mvp
+  e:
+    options:
+      prefix: puta
+schema-version: 1
+users:
+  ef99c6c6-f40a-4a61-ba28-295bb97a0e44:
+    group:
+    - Owner
+    options:
+      name: KingFredy
+  alfredo:
+    group:
+    - Owner

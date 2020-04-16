@@ -1,0 +1,55 @@
+CountdownLength: 5
+Distance: 10.0
+TradeCurrency: false
+TradeCurrencyAmount: 100.0
+TradeInCreative: false
+ShiftRightClick: true
+Messages:
+  error-not-involved: '&a&lTRADE &8&l» &7You are currently not involved in any trades'
+  error-trade-already-accepted: '&a&lTRADE &8&l» &7The trade has already been accepted'
+  error-accepter-different-trade: '&a&lTRADE &8&l» &7The player &e%accepter% &7is
+    currently involved in a different trade'
+  error-requester-different-trade: '&a&lTRADE &8&l» &7You are currently involved in
+    a different trade'
+  error-distance: '&a&lTRADE &8&l» &7You must be within 10 blocks of a player to trade'
+  error-world: '&a&lTRADE &8&l» &7You must be in the same world as a player to trade'
+  error-self: '&a&lTRADE &8&l» &7You cannot trade with yourself'
+  error-not-online: '&a&lTRADE &8&l» &7The player &e%accepter% &7is not online'
+  error-creative: '&a&lTRADE &8&l» &7You cannot trade while in &eCreative &7mode'
+  error-incorrect-usage: '&a&lTRADE &8&l» &7Incorrect Usage, Correct Usage: &e/Trade
+    (PlayerName)&7, &e/Trade Accept&7, or &e/Trade Decline'
+  trade-request-sent: '&a&lTRADE &8&l» &7Trade request sent to the player &e%accepter%'
+  trade-request-received: '&a&lTRADE &8&l» &7The player &e%requester% &7has just requested
+    a trade with you. You have 15 seconds to accept'
+  trade-accepted: '&a&lTRADE &8&l» &7Trade has been accepted'
+  trade-successful: '&a&lTRADE &8&l» &7Trade was successful'
+  trade-cancelled: '&a&lTRADE &8&l» &7Trade has been cancelled'
+  trade-cancelled-creative-reason: '&a&lTRADE &8&l» &7This was because a player was
+    in creative mode'
+  traded-currency: '&a&lTRADE &8&l» &7You have traded &e%currencyamount% &7as a result
+    of the trade'
+  received-currency: '&a&lTRADE &8&l» &7You have received &e%currencyamount% &7as
+    a result of the trade'
+  config-reloaded: '&a&lTRADE &8&l» &7The &econfig.yml &7file has been reloaded'
+Item-Names:
+  inventory: '|You|                  |Other|'
+  divider: '&7'
+  decline-trade: '&aClick to Cancel Trade'
+  accept-trade: '&aClick to Accept Trade'
+  not-ready: '&aNot Ready'
+  ready: '&aReady'
+  add-currency: '&7Add: &a%currencyamount%'
+  remove-currency: '&7Remove: &a%currencyamount%'
+  total-currency: '&7Current Money-to-be-Traded: &a%currencyamount%'
+Item-Lores:
+  decline-trade:
+  - '&7Click this block at any'
+  - '&7time during the trade to cancel'
+  accept-trade:
+  - '&7Once both traders have clicked'
+  - '&7this block, the countdown will'
+  - '&7begin'
+  add-currency:
+  - '&7Adds your money to the trade'
+  remove-currency:
+  - '&7Removes your money from the trade'

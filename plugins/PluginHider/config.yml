@@ -1,0 +1,21 @@
+# 
+#          ____  __            _            __  ___     __              #
+#         / __ \/ /_  ______ _(_)___  _____/ / / (_)___/ /__  _____     #
+#        / /_/ / / / / / __ `/ / __ \/ ___/ /_/ / / __  / _ \/ ___/     #
+#       / ____/ / /_/ / /_/ / / / / (__  ) __  / / /_/ /  __/ /         #
+#      /_/   /_/\__,_/\__, /_/_/ /_/____/_/ /_/_/\__,_/\___/_/          #
+#                    /____/                                             #
+#                                                                       #
+#                         Created by: _HeroPwP                          #
+#                   SpigotMC: https://bit.ly/2ObqifX                    #
+#                                                                       #
+#                       List of Permissions:                            #
+#  - PluginHider.bypass - Permission to see plugins.                    #
+#  - PluginHider.reload - Permission to reload the configuration file.  #
+#                                                                       #
+prefix: '&a&lSURVIVAL &8&l»'
+Messages:
+  BlockedCommand: '&7Unknown command.'
+  UnknownCommand: '&7Unknown command.'
+  ConfigurationReloaded: '&7Successfull reloaded!'
+  InsufficientPermissions: '&7Unknown command.'

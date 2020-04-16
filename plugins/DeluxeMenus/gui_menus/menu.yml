@@ -1,0 +1,233 @@
+menu_title: '&8Survival | Menu'
+open_command:
+- menu
+size: 45
+items:
+  'Decoration':
+    material: 160
+    data: 7
+    slots:
+    - 2
+    - 4
+    - 6
+    - 11
+    - 14
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 29
+    - 32
+    - 38
+    - 40
+    - 42
+  'Decoration-1':
+    material: 160
+    data: 15
+    slots:
+    - 0
+    - 1
+    - 3
+    - 5
+    - 7
+    - 8
+    - 9
+    - 17
+    - 27
+    - 35
+    - 36
+    - 37
+    - 39
+    - 41
+    - 43
+    - 44
+  'No-A':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+    display_name: '&cNot available'
+    slots:
+    - 33
+    - 34
+  'Teleport-Survival':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThkYWExZTNlZDk0ZmYzZTMzZTFkNGM2ZTQzZjAyNGM0N2Q3OGE1N2JhNGQzOGU3NWU3YzkyNjQxMDYifX19
+    priority: 1
+    slot: 10
+    display_name: '&aTeleport to Survival'
+    view_requirement:
+      requirements:
+        Delay:
+          type: string equals
+          input: '%javascript_rewards-delay_Teleport_60%'
+          output: 0s
+    lore:
+    - ''
+    - '&7Use this option to be teleport'
+    - '&7to a random place of survival.'
+    - ''
+    - '&eClick to go'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Teleport_start%'
+    - '[console] rtp %player_name% survival'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Teleport_start%'
+    - '[console] rtp %player_name% survival'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Teleport-Survival-Delay':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThkYWExZTNlZDk0ZmYzZTMzZTFkNGM2ZTQzZjAyNGM0N2Q3OGE1N2JhNGQzOGU3NWU3YzkyNjQxMDYifX19
+    priority: 2
+    slot: 10
+    display_name: '&aTeleport to Survival'
+    lore:
+    - '&7'
+    - '&7Use this option to be teleport'
+    - '&7to a random place of survival.'
+    - '&7'
+    - '&cTeleport available in: %javascript_rewards-delay_Teleport_60%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[refresh]'
+  'Teleports':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE3NzlkZWUyYTZiMTk4OTcwYTEwZTcxYjJiNDc0ZjQ0N2RmYmUyZjEyMGZmMjIzN2M0N2ZkMTY3Y2Q0ZjFhNyJ9fX0=
+    slot: 12
+    display_name: '&aTeleports'
+    lore:
+    - ''
+    - '&7At this menus you can access'
+    - '&7to the important teleports.'
+    - ''
+    - '&eClick to open'
+    left_click_commands:
+    - '[openguimenu] teleports'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] teleports'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+  'Protections':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU5NTI5M2FjYmNkNGY1NWZhZjU5NDdiZmM1MTM1MDM4YjI3NWE3YWI4MTA4NzM0MWI5ZWM2ZTQ1M2U4MzkifX19
+    slot: 13
+    display_name: '&aProtections'
+    lore:
+    - ''
+    - '&7In this menu you can purchase'
+    - '&7protections of diferentes sizes.'
+    - ''
+    - '&eClick to open'
+    left_click_commands:
+    - '[openguimenu] protections'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] protections'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Jobs':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA4YmRiNTNjNTVmZWYzMmEwNjU4ZTFjNzk2NjYxNGFmMGJmZjYwOTEyNDliOGZlM2I3N2EwMjc1ZGE4MmU0MyJ9fX0=
+    slot: 15
+    display_name: '&aJobs'
+    lore:
+    - ''
+    - '&7Choose yours favorite jobs'
+    - '&7and obtain money for do its.'
+    - ''
+    - '&7Max Jobs: &b2'
+    - ''
+    - '&eClick to open'
+    left_click_commands:
+    - '[openguimenu] jobs'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] jobs'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Upgrades':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYyZWQ0ZWYzNThiZjkyNTJlYTczYTZiMGY0ZTg2OGIyN2ZlZWJjYWU2MDNlZTVlNWQwOTgyYjZkOWU2NjkwIn19fQ==
+    slot: 16
+    display_name: '&aUpgrades'
+    lore:
+    - ''
+    - '&7In this menu you can upgrade your'
+    - '&7protections, max homes and more...'
+    - ''
+    - '&8&l* &8&nProgress:'
+    - ''
+    - '&7- &a%javascript_protections-progress-bar% &8| &7Protections'
+    - '&7- &a%javascript_home-progress-bar% &8| &7Homes'
+    - ''
+    - '&eClick to open'
+    left_click_commands:
+    - '[openguimenu] upgrades'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] upgrades'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Profile':
+    material: head;%player_name%
+    slot: 28
+    display_name: '&aProfile'
+    lore:
+    - ''
+    - '&7In the profile you can see'
+    - '&7your stats and manage the'
+    - '&7player options.'
+    - ''
+    - '&eClick to open'
+    left_click_commands:
+    - '[openguimenu] profile'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] profile'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Skills':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliOTkyMzhkOWY4MTM0MDE1ZDc0MzQxYjE3MTE1YmUzMGYxMjVhMzdlYTQ5MDMyYjhjOWUzYjc2OWNmN2VlMSJ9fX0=
+    slot: 30
+    display_name: '&aSkills'
+    lore:
+    - ''
+    - '&7Here you can upgrade your'
+    - '&7resistance, health and more...'
+    - ''
+    - '&eClick to open'
+    left_click_commands:
+    - '[openguimenu] skills'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] skills'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Challenges':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM3ZjhmOTVjMTI1NzU3Y2JmNzY3YTExZjUyYTRlNjY5MWNlMThhMjU5NzhjNjhjZmEzOTEwMzYwZmUifX19
+    slot: 31
+    display_name: '&aChallenges'
+    lore:
+    - ''
+    - '&7Access to here to see the'
+    - '&7available challenges and claim'
+    - '&7rewards when complet theses.'
+    - '' 
+    - '&eClick to open'
+    left_click_commands:
+    - '[openguimenu] challenges'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] challenges'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'

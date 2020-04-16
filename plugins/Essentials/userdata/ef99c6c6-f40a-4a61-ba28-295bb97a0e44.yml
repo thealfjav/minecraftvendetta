@@ -1,0 +1,38 @@
+lastAccountName: KingFredy
+timestamps:
+  login: 1587059003345
+  logout: 1587058698407
+  lastteleport: 1587059977203
+ipAddress: 127.0.0.1
+lastlocation:
+  world: Survival
+  x: -533.9265800415362
+  y: 66.0
+  z: 1436.6895680425705
+  yaw: -7.6485596
+  pitch: 22.500008
+logoutlocation:
+  world: Spawn
+  x: -26.430710193113427
+  y: 120.5
+  z: 70.8594642595764
+  yaw: -325.7278
+  pitch: 24.45003
+nickname: Alfredo
+money: '1997372281.0'
+homes:
+  home:
+    world: Spawn
+    x: -38.51729739688605
+    y: 92.0
+    z: 76.43200844815509
+    yaw: 0.5252075
+    pitch: 3.000122
+  puta:
+    world: Spawn
+    x: -38.5094430703503
+    y: 92.5
+    z: 74.20519566056358
+    yaw: 0.5252075
+    pitch: 3.000122
+godmode: true

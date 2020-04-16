@@ -1,0 +1,19 @@
+Locations:
+  '1':
+    Crate: Basic
+    World: Spawn
+    X: -4
+    Y: 100
+    Z: 89
+  '2':
+    Crate: Mega
+    World: Spawn
+    X: -3
+    Y: 100
+    Z: 92
+  '3':
+    Crate: Legendary
+    World: Spawn
+    X: -4
+    Y: 100
+    Z: 95

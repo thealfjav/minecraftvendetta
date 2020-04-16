@@ -1,0 +1,158 @@
+gui:
+  title: '&f&l»&7&l» &8Skills &7&l«&f&l«'
+  size: 7
+  reset-enabled: true
+  display:
+    strength-normal:
+      material: GOLD_SWORD
+      name: '&aStrength'
+      slot: 41
+      lore:
+      - '&7Increase the'
+      - '&7damage by &e%strengthincrement%%'
+      - ''
+      - '&f&lProgress:'
+      - '&7Progress: &b%strength%'
+      - '%strengthprogress%'
+      - ''
+      - '&8&l» &eClick to buy'
+    criticals-normal:
+      material: BLAZE_POWDER
+      name: '&aCriticals'
+      slot: 42
+      lore:
+      - '&7Increase critical'
+      - '&7damage by &e%criticalsincrement%%'
+      - ''
+      - '&f&lProgress:'
+      - '&7Progress: &b%criticals%'
+      - '%criticalsprogress%'
+      - ''
+      - '&8&l» &eClick to buy'
+    resistance-normal:
+      material: CHAINMAIL_CHESTPLATE
+      name: '&aResistance'
+      slot: 43
+      lore:
+      - '&7Decrease damage from all'
+      - '&7attacks by &e%resistanceincrement%%'
+      - ''
+      - '&f&lProgress:'
+      - '&7Progress: &b%resistance%'
+      - '%resistanceprogress%'
+      - ''
+      - '&8&l» &eClick to buy'
+    archery-normal:
+      material: BOW
+      name: '&aArchery'
+      slot: 44
+      lore:
+      - '&7Increase arrow'
+      - '&7damage by &e%archeryincrement%%'
+      - ''
+      - '&f&lProgress:'
+      - '&7Progress: &b%archery%'
+      - '%archeryprogress%'
+      - ''
+      - '&8&l» &eClick to buy'
+    health-normal:
+      material: REDSTONE
+      name: '&aHealth'
+      slot: 45
+      lore:
+      - '&7Increase health'
+      - '&7points by &e%healthincrement%%'
+      - ''
+      - '&f&lProgress:'
+      - '&7Progress: &b%health%'
+      - '%healthprogress%'
+      - ''
+      - '&8&l» &eClick to buy'
+    reset-strength:
+      material: BARRIER
+      name: '&aReset this skill'
+      slot: 40
+      lore:
+      - ''
+      - '&7Reset this skills and'
+      - '&7receive spent skill points'
+      - ''
+      - '&8&l» &eClick to reset'
+    reset-criticals:
+      material: BARRIER
+      name: '&aReset this skill'
+      slot: 39
+      lore:
+      - ''
+      - '&7Reset this skills and'
+      - '&7receive spent skill points'
+      - ''
+      - '&8&l» &eClick to reset'
+    reset-resistance:
+      material: BARRIER
+      name: '&aReset this skill'
+      slot: 38
+      lore:
+      - ''
+      - '&7Reset this skills and'
+      - '&7receive spent skill points'
+      - ''
+      - '&8&l» &eClick to reset'
+    reset-archery:
+      material: BARRIER
+      name: '&aReset this skill'
+      slot: 47
+      lore:
+      - ''
+      - '&7Reset this skills and'
+      - '&7receive spent skill points'
+      - ''
+      - '&8&l» &eClick to reset'
+    reset-health:
+      material: BARRIER
+      name: '&aReset this skill'
+      slot: 48
+      lore:
+      - ''
+      - '&7Reset this skills and'
+      - '&7receive spent skill points'
+      - ''
+      - '&8&l» &eClick to reset'
+    reset-all:
+      material: TNT
+      name: '&aReset everything'
+      slot: 49
+      lore:
+      - ''
+      - '&7Reset everythings'
+      - '&7improved skills.'
+      - ''
+      - '&f&lInfo:'
+      - '&7Spent points will &bnot be returned&7.'
+      - ''
+      - '&8&l» &eClick to reset'
+    stats:
+      material: PAPER
+      name: '&a%username%''s stats'
+      slot: 50
+      lore:
+      - ''
+      - '&f&lExperience:'
+      - '&7Level: &b%expierencelevel%'
+      - '&7Next Level: %expierencebar%'
+      - ''
+      - '&7Total points/spent: &e%totalspent%'
+    points-purchase:
+      material: BOOK
+      name: '&aSkill Points'
+      slot: 51
+      lore:
+      - ''
+      - '&f&lBuy:'
+      - '&7Cuantity: &b1'
+      - '&7Price: &b%pointsprice%'
+      - ''
+      - '&7Skill Points: &d%points%'
+      - ''
+      - '&8&l» &eClick to buy'
+      right-click: false

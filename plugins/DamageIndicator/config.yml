@@ -1,0 +1,19 @@
+update-checker: true
+Use_scoreboard: false
+Decimal_format: '#.#'
+Style: 1
+Live_tick: 10
+Damage: '&c- %number%'
+Regen: '&a+ %number%'
+Location:
+  x: 0
+  y: 1.2,1.5
+  z: 0
+Show_PotionEffect:
+  isShow: true
+  Level: true
+  Duration: true
+enable_world:
+- Spawn
+- Survival
+list: []

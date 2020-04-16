@@ -1,0 +1,247 @@
+# BlockRegen
+# 
+# Developer(s): Aurorion & Wertik1206
+# Version: 3.5.3
+#
+# Material list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+
+Blocks:
+    STONE:
+        replace-block: BEDROCK
+        regen-delay: 20
+        money: 0
+        console-command: stats %player% MINE_BLOCK stone add 1
+        player-command:
+        tool-damage: 0
+        tool-required: 
+        natural-break: false
+        drop-item:
+            material: COBBLESTONE
+            name: ""
+            lores: ""
+            drop-naturally: false
+            exp:
+                drop-naturally: false
+                amount: 0
+            amount:
+                high: 1
+                low: 1
+    ANDESITE:
+        replace-block: BEDROCK
+        regen-delay: 20
+        money: 0
+        console-command: stats %player% MINE_BLOCK andesite add 1
+        player-command:
+        tool-damage: 0
+        tool-required: 
+        natural-break: false
+        drop-item:
+            material: ANDESITE
+            name: ""
+            lores: ""
+            drop-naturally: false
+            exp:
+                drop-naturally: false
+                amount: 0
+            amount:
+                high: 1
+                low: 1        
+    COAL_ORE:
+        replace-block: BEDROCK
+        regen-delay: 30
+        money: 1
+        console-command: stats %player% MINE_BLOCK coal_ore add 1
+        player-command:
+        tool-damage: 0
+        tool-required: 
+        natural-break: false
+        drop-item:
+            material: COAL
+            name: ""
+            lores: ""
+            drop-naturally: false
+            exp:
+                drop-naturally: false
+                amount: 1
+            amount:
+                high: 3
+                low: 1
+    IRON_ORE:
+        replace-block: BEDROCK
+        regen-delay: 30
+        money: 1
+        console-command: stats %player% MINE_BLOCK iron_ore add 1
+        player-command:
+        tool-damage: 0
+        tool-required: 
+        natural-break: false
+        drop-item:
+            material: IRON_ORE
+            name: ""
+            lores: ""
+            drop-naturally: false
+            exp:
+                drop-naturally: false
+                amount: 0
+            amount:
+                high: 1
+                low: 1
+    GOLD_ORE:
+        replace-block: BEDROCK
+        regen-delay: 30
+        money: 1
+        console-command: stats %player% MINE_BLOCK gold_ore add 1
+        player-command:
+        tool-damage: 0
+        tool-required: 
+        natural-break: false
+        drop-item:
+            material: GOLD_ORE
+            name: ""
+            lores: ""
+            drop-naturally: false
+            exp:
+                drop-naturally: false
+                amount: 0
+            amount:
+                high: 1
+                low: 1  
+    LAPIS_ORE:
+        replace-block: BEDROCK
+        regen-delay: 40
+        money: 1
+        console-command: stats %player% MINE_BLOCK lapis_ore add 1
+        player-command:
+        tool-damage: 0
+        tool-required: 
+        natural-break: false
+        drop-item:
+            material: LAPIS_LAZULI
+            name: ""
+            lores: ""
+            drop-naturally: false
+            exp:
+                drop-naturally: false
+                amount: 5
+            amount:
+                high: 5
+                low: 1 
+    LEGACY_GLOWING_REDSTONE_ORE:
+        replace-block: BEDROCK
+        regen-delay: 40
+        money: 1
+        console-command: stats %player% MINE_BLOCK redstone_ore add 1
+        player-command:
+        tool-damage: 0
+        tool-required: 
+        natural-break: false
+        drop-item:
+            material: REDSTONE
+            name: ""
+            lores: ""
+            drop-naturally: false
+            exp:
+                drop-naturally: false
+                amount: 5
+            amount:
+                high: 5
+                low: 1          
+    REDSTONE_ORE:
+        replace-block: BEDROCK
+        regen-delay: 40
+        money: 1
+        console-command: stats %player% MINE_BLOCK redstone_ore add 1
+        player-command:
+        tool-damage: 0
+        tool-required: 
+        natural-break: false
+        drop-item:
+            material: REDSTONE
+            name: ""
+            lores: ""
+            drop-naturally: false
+            exp:
+                drop-naturally: false
+                amount: 5
+            amount:
+                high: 5
+                low: 1             
+    DIAMOND_ORE:
+        replace-block: BEDROCK
+        regen-delay: 60
+        money: 1
+        console-command: stats %player% MINE_BLOCK diamond_ore add 1
+        player-command:
+        tool-damage: 0
+        tool-required: 
+        natural-break: false
+        drop-item:
+            material: DIAMOND
+            name: ""
+            lores: ""
+            drop-naturally: false
+            exp:
+                drop-naturally: false
+                amount: 15
+            amount:
+                high: 2
+                low: 1
+    EMERALD_ORE:
+        replace-block: BEDROCK
+        regen-delay: 60
+        money: 1
+        console-command: stats %player% MINE_BLOCK emerald_ore add 1
+        player-command:
+        tool-damage: 0
+        tool-required: 
+        natural-break: false
+        drop-item:
+            material: EMERALD
+            name: ""
+            lores: ""
+            drop-naturally: false
+            exp:
+                drop-naturally: false
+                amount: 20
+            amount:
+                high: 2
+                low: 1   
+    WHEAT:
+        replace-block: WHEAT
+        regen-delay: 120
+        console-command: stats %player% MINE_BLOCK wheat add 1
+        natural-break: false
+        drop-item:
+            material: WHEAT
+            name: ""
+            lores: ""
+            drop-naturally: false
+            amount:
+                high: 1
+                low: 1 
+    CARROTS:
+        replace-block: CARROTS
+        regen-delay: 120
+        console-command: stats %player% MINE_BLOCK carrots add 1  
+        natural-break: false
+        drop-item:
+            material: CARROT
+            name: ""
+            lores: ""
+            drop-naturally: false
+            amount:
+                high: 2
+                low: 1  
+    POTATOES:
+        replace-block: POTATOES
+        regen-delay: 120
+        console-command: stats %player% MINE_BLOCK potatoes add 1   
+        natural-break: false
+        drop-item:
+            material: POTATO
+            name: ""
+            lores: ""
+            drop-naturally: false
+            amount:
+                high: 2
+                low: 1  

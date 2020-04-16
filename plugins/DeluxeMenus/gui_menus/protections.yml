@@ -1,0 +1,184 @@
+menu_title: '&8Protections'
+open_command:
+- protections
+size: 36
+items:
+  'Decoration':
+    material: 160
+    data: 7
+    slots:
+    - 2
+    - 4
+    - 6
+    - 10
+    - 12
+    - 14
+    - 16
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 29
+    - 33
+  'Decoration-1':
+    material: 160
+    data: 15
+    slots:
+    - 0
+    - 1
+    - 3
+    - 5
+    - 7
+    - 8
+    - 9
+    - 17
+    - 27
+    - 28
+    - 30
+    - 32
+    - 34
+    - 35
+  'Back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    slot: 31
+    display_name: '&aBack'
+    lore: ''
+    left_click_commands:
+    - '[openguimenu] menu'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] menu'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Tier1Protection':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
+    slot: 11
+    display_name: '&aTier 1 Protection'
+    lore:
+    - ''
+    - '&7Buy a protection with'
+    - '&7the size: &d50x25x50&7.'
+    - ''
+    - '&7Price: &b40.000 ⛁'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[console] tm amsg %player_name% &a&lPROTECTIONS &8&l» &7You have bought &eTier 1 Protection.'
+    - '[console] karenprotect give coal_ore %player_name%'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 40000'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 40000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e40.000 ⛁ &7to buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]' 
+    right_click_commands:
+    - '[console] tm amsg %player_name% &a&lPROTECTIONS &8&l» &7You have bought &eTier 1 Protection.'
+    - '[console] karenprotect give coal_ore %player_name%'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 40000'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 40000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e40.000 ⛁ &7to buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]' 
+  'Tier2Protection':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
+    slot: 13
+    display_name: '&aTier 2 Protection'
+    lore:
+    - ''
+    - '&7Buy a protection with'
+    - '&7the size: &d100x50x100&7.'
+    - ''
+    - '&7Price: &b80.000 ⛁'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[console] tm amsg %player_name% &a&lPROTECTIONS &8&l» &7You have bought &eTier 2 Protection.'
+    - '[console] karenprotect give gold_ore %player_name%'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 80000'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 80000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e80.000 ⛁ &7to buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]' 
+    right_click_commands:
+    - '[console] tm amsg %player_name% &a&lPROTECTIONS &8&l» &7You have bought &eTier 2 Protection.'
+    - '[console] karenprotect give gold_ore %player_name%'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 80000'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 80000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e80.000 ⛁ &7to buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]' 
+  'Tier3Protection':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
+    slot: 15
+    display_name: '&aTier 3 Protection'
+    lore:
+    - ''
+    - '&7Buy a protection with'
+    - '&7the size: &d200x100x200&7.'
+    - ''
+    - '&7Price: &b160.000 ⛁'
+    - ''
+    - '&eClick to buy'
+    left_click_commands:
+    - '[console] tm amsg %player_name% &a&lPROTECTIONS &8&l» &7You have bought &eTier 3 Protection.'
+    - '[console] karenprotect give emerald_ore %player_name%'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 160000'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 160000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e160.000 ⛁ &7to buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]' 
+    right_click_commands:
+    - '[console] tm amsg %player_name% &a&lPROTECTIONS &8&l» &7You have bought &eTier 3 Protection.'
+    - '[console] karenprotect give emerald_ore %player_name%'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 160000'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 160000
+      deny_commands:
+      - '[console] tm amsg %player_name% &a&lERROR &8&l» &7You need &e160.000 ⛁ &7to buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]' 

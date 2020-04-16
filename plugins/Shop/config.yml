@@ -1,0 +1,102 @@
+amountPattern: '1-64'
+ignoreColoredDisplay: true
+
+iconsLore:
+- '&7'
+- '&f&lPrices:'
+- '&7Buy: &b{buy_price} ⛁'
+- '&7Sell: &b{sell_price} ⛁'
+- '&7'
+- '&eLeft click to buy'
+- '&eRight click to sell'
+
+pageSuffix: ''
+
+# These items will be added in the last row
+changeAmount:
+  enable: true
+  slot: 7
+  id: HOPPER
+  name: '&aChange Amount'
+  lore:
+  - '&7'
+  - '&7Use this to select the quantity'
+  - '&7of items you wish to buy or sell.'
+  - '&7'
+  - '&eLeft click to increase'
+  - '&eRight click to decrease'
+nextPage:
+  slot: 2
+  id: 'LIME_DYE'
+  inactiveId: 'GRAY_DYE'
+  name: '&aNext'
+  inactiveName: '&7'
+previousPage:
+  slot: 1
+  id: 'LIME_DYE'
+  inactiveId: 'GRAY_DYE'
+  name: '&aBack'
+  inactiveName: '&7'
+
+customNodes:
+  'Close':
+    slot: 4
+    id: BARRIER
+    name: '&aClose'
+    lore: ''
+    close: true
+  'D1':
+    slot: 0
+    id: BLACK_STAINED_GLASS_PANE
+    name: ''
+    lore: ''
+  'D2':
+    slot: 1
+    id: GRAY_STAINED_GLASS_PANE
+    name: ''
+    lore: ''
+  'D3':
+    slot: 2
+    id: GRAY_STAINED_GLASS_PANE
+    name: ''
+    lore: ''
+  'D4':
+    slot: 3
+    id: GRAY_STAINED_GLASS_PANE
+    name: ''
+    lore: ''
+  'D5':
+    slot: 5
+    id: GRAY_STAINED_GLASS_PANE
+    name: ''
+    lore: ''
+  'D6':
+    slot: 6
+    id: GRAY_STAINED_GLASS_PANE
+    name: ''
+    lore: ''
+  'D7':
+    slot: 8
+    id: BLACK_STAINED_GLASS_PANE
+    name: ''
+    lore: ''
+
+messages:
+  noItem: '&a&lSHOP &7You dont have &ex{amount} {item}'
+  noMoney: '&a&lSHOP &7You need &e{money} ⛁ &7to buy this'
+  bought: '&a&lSHOP &7You have bought &ex{amount} {item}'
+  sold: '&a&lSHOP &7You have sold &ex{amount} {item} &7for &d{money} ⛁'
+
+# Sound names can be found here hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sounds:
+  bought: ENTITY_PLAYER_LEVELUP
+  sold: ENTITY_PLAYER_LEVELUP
+  noMoney: BLOCK_ANVIL_LAND
+  noItem: BLOCK_ANVIL_LAND
+
+
+
+
+
+
+configVersion: '1.5'

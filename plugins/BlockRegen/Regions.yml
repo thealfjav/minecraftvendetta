@@ -1,0 +1,47 @@
+# BlockRegen
+# 
+# Developer(s): Aurorion, Wertík1206
+# Version: 3.5.3
+
+Regions:
+  Mine1:
+    block-types: []
+    enabled: true
+    use-all: true
+    all-blocks: false
+    Min: Spawn;-121.0;16.0;127.0
+    Max: Spawn;-82.0;77.0;150.0
+  Mine2:
+    block-types: []
+    enabled: true
+    use-all: true
+    all-blocks: false
+    Min: Spawn;-121.0;32.0;118.0
+    Max: Spawn;-89.0;70.0;126.0
+  mine5:
+    block-types: []
+    enabled: true
+    use-all: true
+    all-blocks: false
+    Min: Spawn;-87.0;17.0;123.0
+    Max: Spawn;-82.0;81.0;158.0
+  Mine3:
+    block-types: []
+    enabled: true
+    use-all: true
+    all-blocks: false
+    Min: Spawn;-81.0;42.0;127.0
+    Max: Spawn;-70.0;76.0;160.0
+  Mine4:
+    block-types: []
+    enabled: true
+    use-all: true
+    all-blocks: false
+    Min: Spawn;-69.0;25.0;140.0
+    Max: Spawn;-29.0;78.0;166.0
+  Farm1:
+    Min: Spawn;-39.0;37.0;114.0
+    Max: Spawn;29.0;119.0;205.0
+  Farm2:
+    Min: Spawn;-53.0;41.0;208.0
+    Max: Spawn;5.0;109.0;294.0

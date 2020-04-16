@@ -1,0 +1,90 @@
+HelmetD:
+  id: diamond_helmet
+  name: '&9Demon Helmet'
+  lore: ['&9&lRARE']
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 5
+    PROTECTION_FIRE: 4
+    DURABILITY: 3
+ChestplateD:
+  id: diamond_chestplate
+  name: '&9Demon Chestplate'
+  lore: ['&9&lRARE']
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 5
+    PROTECTION_FIRE: 4
+    DURABILITY: 3
+LeggingsD:
+  id: diamond_leggings
+  name: '&9Demon Leggings'
+  lore: ['&9&lRARE']
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 5
+    PROTECTION_FIRE: 4
+    DURABILITY: 3
+BootsD:
+  id: diamond_boots
+  name: '&9Demon Boots'
+  lore: ['&9&lRARE']
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 5
+    PROTECTION_FIRE: 4
+    DURABILITY: 3
+UltraPickaxe:
+  id: diamond_pickaxe
+  name: '&9Ultra Pickaxe'
+  lore: ['&9&lRARE']
+  enchantments:
+    DIG_SPEED: 7
+    LOOT_BONUS_BLOCKS: 3
+    DURABILITY: 4
+UltraAxe:
+  id: diamond_axe
+  name: '&9Ultra Axe'
+  lore: ['&9&lRARE']
+  enchantments:
+    DIG_SPEED: 7
+    LOOT_BONUS_BLOCKS: 3
+    DURABILITY: 6
+Excalibur:
+  id: diamond_sword
+  name: '&5Excalibur'
+  lore: ['&5&lEPIC']
+  enchantments:
+    DAMAGE_ALL: 8
+    DAMAGE_UNDEAD: 6
+    LOOT_BONUS_MOBS: 3
+    DURABILITY: 3
+    FIRE_ASPECT: 4
+Iris:
+  id: bow
+  name: '&9Iris Bow'
+  lore: ['&9&lRARE']
+  enchantments:
+    ARROW_DAMAGE: 6
+    ARROW_FIRE: 1
+    ARROW_INFINITE: 1
+FishingRod1:
+  id: fishing_rod
+  name: '&aCommon Fishing Rod'
+  lore: ['&a&lCOMMON']
+  enchantments:
+    DURABILITY: 2
+    LURE: 2 
+    LUCK: 1
+FishingRod2:
+  id: fishing_rod
+  name: '&9Mega Fishing Rod'
+  lore: ['&9&lRARE']
+  enchantments:
+    LURE: 3
+    LUCK: 3
+    DURABILITY: 3
+FishingRod3:
+  id: fishing_rod
+  name: '&5Ultra Fishing Rod'
+  lore: ['&5&lEPIC']
+  enchantments:
+    LURE: 5
+    LUCK: 5
+    DURABILITY: 6

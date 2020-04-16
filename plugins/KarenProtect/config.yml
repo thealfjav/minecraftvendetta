@@ -1,0 +1,257 @@
+karen: 7
+# ^ Don't touch this!
+
+manual_wg_change: 0
+#WorldGuard API change in a different version.
+#If KarenProtect can't detect worldguard or error (like adapter error or flag error),
+#try to change the number to your worldguard version.
+# 0 Disable (AutoDetect) (Default)
+# 1 Worldguard 6.0 - 6.1
+# 2 Worldguard 6.2
+# 3 Worldguard 7
+
+############################
+# KarenProtect Config file #
+#       Version : 7        #
+#    By _StarChaser <3     #
+#    Translate by Yusaki   #                          
+############################
+
+#----====[ Plugin Message ]====----#
+messages:
+  plugin_prefix: '&a&lPROTECTIONS &8&l» '
+  reload: '&7Protections reloaded!'
+  block_limit: '&7You cannot place more protect, You have reached the limit!'
+  overlaps: '&7You cannot place a protection here as it overlaps another owned region!'
+  place_first: '&7Place a protection first before placing/breaking any blocks!'
+  created: '&7Protection created successfully!'
+  target_not_online: '&7Player &e<player> &7is not online!'
+  deny_protect: '&7You cannot place a protection in this area!'
+  block_not_found: '&7Cannot found block id &e(<id>) &7in the config file!'
+  world_disable: '&7Sorry! Protections are disabled in this world!'
+  block_give: '&aAdded block id (<id>) to <player>!'
+  remove: '&7Protection removed successfully!'
+  remove_nodrop: '&7Protection removed successfully!'
+  require_player: '&7This command required player name!'
+  flag_set: '&7Set flag &e<flag> &7to &b<value>&7.'
+  flag_error: '&7You cannot set &e<flag> &7to &b<value>&7.'
+  flag_no_perm: '&7You do not have permission to use flag command.'
+  flag_flags_no_perm: '&7You do not have permission to use this flag.'
+  flag_deny: '&5You cannot use flag command in this area!'
+  flag_help: '&cUsage: &7/kp flag <flagname> <flagvalue>'
+  flag_not_found: '&7Cannot found flag id!'
+  no_perm: '&7You do not have permission to use this command'
+  priority_set: '&7Priority has been set to &e<value>&7!'
+  priority_view: '&7Priority: &e<value>'
+  priority_deny: '&7You cannot use priority command in this area!'
+  priority_no_perm: '&7You do not have permission to use priority comand.'
+  owner_deny: '&7You cannot use owner command in this area!'
+  owner_added: '&e<player> &7added for being an owner!'
+  owner_removed: '&e<player> &7remove from being an owner!'
+  owner_no_perm: '&7You do not have permission to use owner command.'
+  member_deny: '&cYou cannot use member command in this area!'
+  member_added: '&e<player> &7added to the protection!'
+  member_removed: '&e<player> &7removed to the protection!'
+  member_no_perm: '&7You do not have permission to use member command.'
+  protection_take: '&7You take the protection from x: <x> y: <y> z: <z> !'
+  protection_take_deny: '&7You cannot use take command here!'
+  protection_take_not_found: '&7Protection not found at x: <x> y: <y> z: <z>, But it got removed!'
+  protection_take_no_perm: '&7You do not have permission to use take command. &7(&akarenprotect&7.&ctake&7)'
+  protection_take_nodrop: '&7You take the protection from x: <x> y: <y> z: <z> &c(Protection is gone because of nodrop settings)'
+  give_help: '&cUsage: &7/kp give <block_id or block_name> (player)'
+  remove_deny: '&7You cannot remove the protection!'
+  place_noperm: '&7You not have permission to place that block!'
+  cleanup: '&aCleanup complete! &7&o(<value>)'
+  cleanup_usage: '&cUsage: &7/kp cleanup <days>'
+  banded: '&cBanned'
+  not_banded: '&aNot banned'
+  hide: '&7This protection is now disappear!'
+  hide_already: '&7This protection is already hide'
+  unhide: '&7This protection is now reappear'
+  unhide_already: '&7This protection is already unhide'
+  hide_no_perm: '&7You do not have permission to use hide command.'
+  hide_deny: '&7You cannot use hide command in this area!'
+  unhide_no_perm: '&7You do not have permission to use hide command.'
+  unhide_deny: '&7You cannot use unhide command in this area!'
+  empty_data: '&f- &aEmpty &f-'
+  #----====[ Help Message ]====----#
+  help:
+  - '&8&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-='
+  - '    &e&lKaren &b&lProtect &f&l<version> &7&lHelp commands'
+  - '&r'
+  - '  &7Developer: &e_StarChaser,kana2011th'
+  - '  &7Worldedit: &e<ver_worldedit>'
+  - '  &7WorldGuard: &e<ver_worldguard>'
+  - '&r'
+  - '  &7Now you are standing on protect id: &a<id>'
+  - '  &7Owners:&d <owners>'
+  - '  &7Members:&d <members>'
+  - '  &7Priority:&e <priority>'
+  - '  &7Flags data:&d <flags>'
+  - '&8&l*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*'
+  - ' &7/kp,/karenprotect,/ps (help) &f- &aShow this page'
+  - ' &7/kp give <block_id> (player) &f- &aGive a protect block to player'
+  - ' &7/kp flag <flagname> <flagvalue> &f- &aSet a flag for your region'
+  - ' &7/kp add <player> &f- &aAdd member to your region'
+  - ' &7/kp remove <player> &f- &aRemove member form your region'
+  - ' &7/kp addowner <player> &f- &aAdd owner to your region'
+  - ' &7/kp removeowner <player> &f- &aRemove owner form your region'
+  - ' &7/kp priority <value> &f- &aSet priority for your region'
+  - '&8&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-='
+  #----====[ Stats Message Page ]====----#
+  stats:
+  - '&9&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-='
+  - '    &e&lKaren &b&lProtect &7&lStats Page'
+  - '&r'
+  - '  &bInfo:'
+  - '   &dPlayer: &b<player>'
+  - '   &bBan: <ban>'
+  - '   &aLastPlayed: &e<last_played> day(s) ago.'
+  - '   &aFirstPlayed: &e<first_played> day(s) ago.'
+  - '  &bRegions list &f(&a<regions_count>&f)'
+  - '<region_data>'
+  - '&r'
+  - '&9&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-='
+  stats_format_world: '   &bWorlds:'
+  stats_format_world_display: '    &e<world_name>:'
+  stats_format_data: '     &7ID: &b<id> &8x&b<x> &8y&b<y> &8z&b<z> &7Status: <status>'
+  stats_format_member: '&aMember'
+  stats_format_owner: '&bOwner'
+  stats_player_notfound: '&cThat player (<player>) not found!'
+#----====[ Default Flags ]====----#
+# Flag list form worldguard : http://wiki.sk89q.com/wiki/WorldGuard/Regions/Flags
+flags:
+- 'greeting &a&lPROTECTIONS &8&l» &7Entering &e<player> &7protection.'
+- 'farewell &a&lPROTECTIONS &8&l» &7Leavening &e<player> &7protection.'
+- 'pvp deny'
+
+#Auto remove(Beta):
+#Automatic renmove protection form innactive players (days)
+#Default -1 (disable)
+auto_remove: -1
+
+#List all the flags that can be set by region owners.
+enable_flags:
+- 'use'
+- 'pvp'
+- 'greeting'
+- 'farewell'
+- 'mob-spawning'
+
+#Preventing protect block from getting move by pistion
+piston_protect: true
+
+#Automatic add name and lore when the player gets protection block in their inventory.
+#If you enable this, You can use default Minecraft give command to get a protection block. (Example:/give <playername> 16 1)
+#If you enable this, silk_touch_drop_editor should be enabled to preventing player getting protection from silk touch.
+auto_change_on_empty_data: false
+
+
+#Preventing players from placing liquid outside of protection.
+liquid_protect:
+  enable: false
+  message: '&cPlace a protection first before placing liquid blocks!'
+
+#Disable KarenProtect in a specific world by adding your world name.
+disable_worlds:
+- no_protection_place_world
+
+#List your specific world in this list for preventing players from placing/breaking blocks without protection.
+worlds_protect_place_frist:
+- world_need_to_protect
+
+#KarenProtect and ProtectionStone using server performance on placing protection block event.
+#If the player using hack-client and spam place protection block.
+#It can make your server laggy.
+#You can make protection block place delay here.
+blockplacecooldown:
+  enable: false
+  time: 30
+  message: '&aPlease wait <time> seconds to place a protection block again!'
+
+
+#Silk Touch Drop Editor
+#You can use this option for preventing players from using silktouch.
+#(Example: If player mine COAL_ORE with silktouch. They will get Coal instead)
+#You can use any item you want.
+silk_touch_drop_editor:
+  COAL_ORE:
+    enable: false
+    to:
+      item: COAL
+      amount: 1
+#----====[ Protection block settings ]====----#
+
+# protection block format
+# <name> for block name
+# <x> for x value
+# <y> for y value
+# <z> for z value
+# <player> for playername
+
+########################################################################
+#blocks:
+#  <Minecraft block id>:
+#    name: '<Block name>'
+#    size:  //if you want to have bedrock to sky size please use y = 256
+#      x: <x value>
+#      y: <y value>
+#      z: <z value>
+#    block_infomation:
+#      displayname: "<Display name when hold>"
+#      lore:
+#      - '<lore line 1>'
+#      - '<lore line 2>'
+#    events:
+#      <event type>: //(on_place, on_distory, on_entry, on_leave)
+#      - '<event1>' //event can be commands from console and player
+#      - '<event2>' //special event (nodrop and cancel)
+########################################################################
+
+#Example
+blocks:
+  COAL_ORE:
+    name: '&f■ &2Tier 1 &8| &aProtection&7 ■'
+    size:
+      x: 50
+      y: 25
+      z: 50
+    block_infomation:
+      displayname: '&f■ &2Tier 1 &8| &aProtection&7 ■'
+      lore:
+      - '&7Size: &e50x25x50'
+    events:
+      on_place:
+      - ''
+      on_distory:
+      - ''
+  GOLD_ORE:
+    name: '&f■ &2Tier 2 &8| &aProtection&7 ■'
+    size:
+      x: 100
+      y: 50
+      z: 100
+    block_infomation:
+      displayname: '&f■ &2Tier 2 &8| &aProtection&7 ■'
+      lore:
+      - '&7Size: &e100x50x100'
+    events:
+      on_place:
+      - ''
+      on_distory:
+      - ''
+  EMERALD_ORE:
+    name: '&f■ &2Tier 3 &8| &aProtection&7 ■'
+    size:
+      x: 200
+      y: 100
+      z: 200
+    block_infomation:
+      displayname: '&f■ &2Tier 3 &8| &aProtection&7 ■'
+      lore:
+      - '&7Size: &e200x100x200'
+    events:
+      on_place:
+      - ''
+      on_distory:
+      - ''

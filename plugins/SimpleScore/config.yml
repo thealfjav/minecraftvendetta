@@ -1,0 +1,43 @@
+# Time in ticks for a score to stay on the scoreboard (20 ticks = 3 second)
+UpdateTime: 20
+
+# Save which players have the scoreboard disabled
+SaveScoreboards: true
+
+# Per world scoreboards
+Worlds:
+  Spawn:
+    Titles:
+      - text: "&7&LMinecraft &6&lVendetta"
+        time: 3
+
+    Scores:
+      11:
+        - ""
+      10:
+        - "&7Rank: %vault_prefix%"
+      9:
+        - ""
+      8:
+        - "&7Kills: &e%statistic_player_kills%"
+      7:
+        - "&7Deaths: &c%statistic_deaths%"
+      6:
+        - ""
+      5:
+        - "&7Purse: &6%vault_eco_balance_formatted% ⛁"
+      4:
+        - ""
+      3:
+        - "&7Players: &b%server_online%"
+      2:
+        - ""      
+      1:
+        - "&aplay.server.org"
+
+# Shared scoreboards
+Shared:
+  Spawn:
+    - "Survival"
+    - "Spawn_nether"
+    - "Spawn_the_end"

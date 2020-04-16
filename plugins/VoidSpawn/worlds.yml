@@ -1,0 +1,11 @@
+version: 1
+Spawn:
+  mode: spawn
+  spawn:
+    x: -38.5
+    y: 93.0
+    z: 71.5
+    pitch: 3.000122
+    yaw: 0.5252075
+    world: Spawn
+  keep_inventory: true
